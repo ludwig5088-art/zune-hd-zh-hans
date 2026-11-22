@@ -1,0 +1,28 @@
+Contributors and AI model disclosure
+
+Human contributor and project owner: ludwig5088-art (https://github.com/ludwig5088-art).
+Responsibilities: project direction, translation wording decisions, physical
+Zune HD operation, and visual/navigation/playback testing.
+
+Astra / OpenAI Codex, GPT-6
+Responsibilities: primary implementation, localization assembly, Windows
+installer, verification tooling, packaging and documentation.
+Local project metadata includes the credited model identifier gpt-6-astra.
+
+Claude / Anthropic Claude Opus 5.5, accessed through Claude Code
+Recorded response model identifier: claude-opus-5-5.
+Responsibilities: independent design/code review and troubleshooting analysis,
+including language-table compatibility, installation/rollback behavior, repeated
+platform initialization, and incomplete resource writes.
+Twelve completed review records contain this model identifier. Model names were
+captured from response modelUsage metadata, not inferred from the CLI preset.
+Timed-out attempts are not counted as completed reviews.
+
+These roles describe the collaboration, not separate hardware certifications.
+Physical device checks were performed by the owner; automated checks were run
+through the engineering workflow. Review comments do not constitute maintainer
+acceptance. AI-PROVENANCE.json records the model IDs and private review-file
+hashes without distributing raw conversations or device logs.
+
+Upstream acknowledgement: Project Lyra, its contributors, and the Zune
+reverse-engineering community. See THIRD-PARTY.txt for upstream attribution.

@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+/build*/
+/rebuilt/
+*.zmod
+*.gem
+*.xus
+*.cab
+*.bin
+*.exe
+*.dll
+*.log

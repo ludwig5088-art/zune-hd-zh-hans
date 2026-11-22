@@ -1,0 +1,20 @@
+{
+  "status": "READY_FOR_UPSTREAM_REVIEW",
+  "generated_members_byte_identical": 104,
+  "changed_tables": 103,
+  "modified_gems": 8,
+  "wrong_stock_hash_rejected": true,
+  "generated_resources_distributed": false,
+  "device_operations_this_preparation": 0,
+  "target_repository": "https://github.com/project-lyra-zune/project-lyra",
+  "standalone_builder_passed": true,
+  "generated_zmod_sha256": "a1da016c0bd1f31655ae126fe39192028df7d863214bae01939c6c10d2ab9474",
+  "official_lyra_1_4_0_structural_validation_passed": true,
+  "windows_installer_compilation_passed": true,
+  "installer_sources_and_pinned_spec_unchanged": true,
+  "unicode_console_note": "Use python -X utf8 for upstream validator on Windows.",
+  "owner_approved_publication": true,
+  "public_author": "ludwig5088-art",
+  "license": "MIT",
+  "source_repository": "https://github.com/ludwig5088-art/zune-hd-zh-hans"
+}

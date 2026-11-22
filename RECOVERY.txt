@@ -1,0 +1,23 @@
+Recovery and verified scope
+
+Return to English and wait for stable operation BEFORE disabling/removing the
+Chinese mod. The tested private workflow uses the same-version Windows installer
+to withdraw the manifest, reads it back to verify removal, and then reboots while
+English is selected. A full restart clears the RAM resource shadows.
+For the tested device, hold ONLY the top power button for about ten seconds and
+release when the restart logo appears. Do not add other buttons.
+
+Before 0.2.3 installation, the previous 0.2.2 Chinese state was returned to English,
+its manifest withdrawn, and all ten baseline resources verified after a full
+restart. 0.2.3 has NOT subsequently been uninstalled on that device. Its install/
+undo implementation is covered by the existing 32-operation host protocol test.
+The new source builder is offline and does not install, uninstall, or reboot.
+
+Observed platform issue: Mods disappeared in some prior sessions after repeated
+platform initialization. English plus a top-power-only restart restored it.
+Do not claim the localization repairs this. Browser-page refresh was not proven
+to be the cause. Never use the Lyra installer page as a Wi-Fi keepalive method.
+
+Public distribution should make the English-before-disable requirement clear.
+The public Mods enable/disable/remove route for this exact release has not been
+separately validated; the proven rollback is the private installer workflow above.

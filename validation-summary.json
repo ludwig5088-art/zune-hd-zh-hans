@@ -1,0 +1,29 @@
+{
+  "version": "0.2.3",
+  "status": "DEVICE_BASIC_CHECKS_PASSED",
+  "date": "2026-11-22",
+  "device": "Zune HD 4.5 (114), official Lyra 1.4.0",
+  "english_first_boot_user_confirmed_music_settings_mods": true,
+  "english_and_chinese_all_ten_runtime_resources_match": true,
+  "normal_committed_state_no_fault_records": true,
+  "eight_complete_resource_flushes_no_partial_write": true,
+  "wording_from_actual_device": {
+    "566": "网络信息",
+    "567": "无线网络连接",
+    "636": "无线网络连接"
+  },
+  "user_confirmed_both_terms_complete_and_pages_open": true,
+  "english_table_byte_identical": true,
+  "radio_information_genre_preserved": true,
+  "previous_0_2_2_english_return_manifest_undo_and_all_ten_cold_baselines_verified": true,
+  "current_0_2_3_manifest_undo_not_exercised_on_device": true,
+  "limits": [
+    "TV-specific resources are not replaced.",
+    "Five Lyra compatibility labels remain English.",
+    "Every page has not been visually exercised.",
+    "Known Lyra repeat-initialization behavior is not repaired by this data-only pack.",
+    "English/Chinese captures can share boot-log timestamps; locale is confirmed by user observation, not inferred from logs."
+  ],
+  "scope_note": "Historical checks on one retail device; not a new device test or maintainer approval.",
+  "installer_mock_protocol_operations_passed": 32
+}

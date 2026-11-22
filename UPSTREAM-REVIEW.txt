@@ -1,0 +1,43 @@
+Title: Review request: source-reproducible Simplified Chinese handheld mod (4.5/1.4.0)
+
+Source repository: https://github.com/ludwig5088-art/zune-hd-zh-hans
+Build and scope: https://github.com/ludwig5088-art/zune-hd-zh-hans/blob/main/README.txt
+Recovery: https://github.com/ludwig5088-art/zune-hd-zh-hans/blob/main/RECOVERY.txt
+Verification summary: https://github.com/ludwig5088-art/zune-hd-zh-hans/blob/main/validation-summary.json
+
+We have a data-only Simplified Chinese localization tested on one retail Zune HD
+4.5 (114) with Lyra 1.4.0. It replaces 103 Spanish tables in eight handheld GEMs,
+retains English, and preserves the five Lyra-added string IDs. No native DLL or
+firmware/font write is introduced. The two TV-only archives are excluded.
+
+We would like review of this source project and advice on a suitable route into
+the public mod catalog. The source export contains translated text, reconstruction
+recipes, an offline builder, the existing Windows installer source, exact expected
+member hashes, a sanitized validation summary, and recovery instructions. Owners
+provide their own unmodified stock GEM files; no firmware assets are attached.
+
+Verified: normal English startup, exact hashes of all ten runtime resources,
+eight complete flushes, readable Chinese wireless labels and working pages.
+Playback/settings/Mods/date were exercised on 0.2.2, and 0.2.3 changes only three
+wireless labels. 0.2.2 return-to-English, undo and cold baseline restoration were
+verified before 0.2.3; we do not claim a subsequent 0.2.3 device uninstall.
+
+Questions for review:
+1. Is a source-first translation mod appropriate for mods/, and do you accept
+   generated replacement XUS tables in the feed, or prefer another distribution?
+2. How should the tested firmware/platform string layout be gated? Capability
+   matching alone cannot validate the five fixed Lyra 1.4.0 appended string IDs.
+3. Can the manager make the English-before-disable/remove requirement visible?
+   The exact catalog enable/disable route still needs separate verification.
+
+The package remains experimental. Every page and TV output are not verified, and
+the observed platform repeated-initialization behavior is not repaired here.
+AI disclosure: Astra / OpenAI Codex (GPT-6) handled primary implementation
+and verification. Claude / Anthropic Claude Opus 5.5 (response model claude-opus-5-5), through Claude Code, provided
+independent design/code reviews and troubleshooting analysis; twelve completed
+review records are available in the private project archive. ludwig5088-art
+directed the project, chose wording, and performed physical device testing.
+See CREDITS.txt and AI-PROVENANCE.json; no raw private logs are attached.
+
+The contributed source is published under MIT. Upstream approval and catalog
+inclusion are pending maintainer review.

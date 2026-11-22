@@ -1,0 +1,5059 @@
+{
+  "version": "0.2.3",
+  "target": "Retail Zune HD 4.5 (114), Lyra 1.4.0",
+  "format": "Only changed text/binding recipes; unchanged stock text is referenced, not bundled.",
+  "stock_gem_sha256": {
+    "HudScenes.gem": "7aab52bf59ff07313c80668b203498b0b7556cb88b96c638ed67663e2a6e7682",
+    "HudStrings.gem": "3158676c98b4773896de14d690f4cf520078e3653a1a0a57b97be3ae5d61fea6",
+    "ZIE_Scenes.gem": "2ab7a928c9e3a2f5bc4f73f6a3651dfe852d634a06bd25f7dc2934abbd1f35a6",
+    "ZIE_Strings.gem": "4eaccefe804a171f2a7c6a4657dd544c8df746252da3d2fd147b12cb9b6e9cb5",
+    "scenes_standard.gem": "523396539291394accab3b7fdaa6da9d33f8a5cba187a5332ca6d0ecc25902b2",
+    "strings.gem": "473222a2d464e95f74f324f308769da5764c55d25e35bfd646a1ea7885e8d4f7",
+    "xnascenes.gem": "dc7eb26db8d6c17a7e623a7f21608297640dc05b5e90b68cf1ad56dedba2f450",
+    "xnastrings.gem": "608fadd5c4808d9634e8a21f46e9ab242cde2c4271032e50de7c2052977d7464"
+  },
+  "tables": [
+    {
+      "gem": "HudScenes.gem",
+      "entry": "ESP\\AutoConnect.xus",
+      "output": "payload-0.2.2/tables/HudScenes/AutoConnect.xus",
+      "version": 257,
+      "stock_table_sha256": "926cb731ec31a9605bc7d5d9a5987f81d9a3a90ebdf8bfa71063d9e747f8eaf5",
+      "fields": [
+        {
+          "bindings_hex": "01090003",
+          "text": "操作…"
+        }
+      ]
+    },
+    {
+      "gem": "HudScenes.gem",
+      "entry": "ESP\\ContextMenu.xus",
+      "output": "payload-0.2.2/tables/HudScenes/ContextMenu.xus",
+      "version": 257,
+      "stock_table_sha256": "3cc5b2eb9ec860654c69a6007dcc3c38959f55767dbf9ff20b888af617db2347",
+      "fields": [
+        {
+          "bindings_hex": "01090005",
+          "text": "快捷菜单标题"
+        }
+      ]
+    },
+    {
+      "gem": "HudScenes.gem",
+      "entry": "ESP\\DebugCloud.xus",
+      "output": "payload-0.2.2/tables/HudScenes/DebugCloud.xus",
+      "version": 257,
+      "stock_table_sha256": "7bf4563ea9ce945f6e2117da1c31fbc8b85619e8d9c8c5383ef923c68c8a8cb7",
+      "fields": [
+        {
+          "bindings_hex": "01090006",
+          "text": "任务历史"
+        },
+        {
+          "bindings_hex": "01090008",
+          "text": "ZNet 通知"
+        },
+        {
+          "bindings_hex": "0109000b",
+          "text": "工作线程"
+        },
+        {
+          "bindings_hex": "0109000c",
+          "text": "（网络已关闭）"
+        },
+        {
+          "bindings_hex": "0109000d",
+          "text": "（网络已开启）"
+        }
+      ]
+    },
+    {
+      "gem": "HudScenes.gem",
+      "entry": "ESP\\Keyboard.xus",
+      "output": "payload-0.2.2/tables/HudScenes/Keyboard.xus",
+      "version": 257,
+      "stock_table_sha256": "31a997f0218eceb2fa6bb2362e4cfcacc28034c70f4f4d237210794aa9af90ab",
+      "fields": [
+        {
+          "bindings_hex": "0109001e",
+          "text": "空格"
+        },
+        {
+          "bindings_hex": "01090022",
+          "text": "完成"
+        },
+        {
+          "bindings_hex": "01090024",
+          "text": "完成"
+        }
+      ]
+    },
+    {
+      "gem": "HudScenes.gem",
+      "entry": "ESP\\MediaControllerMusic.xus",
+      "output": "payload-0.2.2/tables/HudScenes/MediaControllerMusic.xus",
+      "version": 257,
+      "stock_table_sha256": "cb06004a947ebf6c0e032b05eb83a1ad76215b236ebf021358e0047f6c8f9383",
+      "fields": [
+        {
+          "bindings_hex": "01090007",
+          "text": "其他专辑"
+        },
+        {
+          "bindings_hex": "01090008",
+          "text": "其他歌曲"
+        },
+        {
+          "bindings_hex": "01090009",
+          "text": "其他艺人"
+        },
+        {
+          "bindings_hex": "0109000b",
+          "text": "当前专辑"
+        },
+        {
+          "bindings_hex": "0109000c",
+          "text": "当前歌曲"
+        },
+        {
+          "bindings_hex": "0109000d",
+          "text": "当前艺人"
+        },
+        {
+          "bindings_hex": "0109000f",
+          "text": "音量"
+        },
+        {
+          "bindings_hex": "01090017",
+          "text": "退出"
+        }
+      ]
+    },
+    {
+      "gem": "HudScenes.gem",
+      "entry": "ESP\\MediaControllerRadio.xus",
+      "output": "payload-0.2.2/tables/HudScenes/MediaControllerRadio.xus",
+      "version": 257,
+      "stock_table_sha256": "e1bfc23bcea078ed1e26331f9f6ec38bf6f0d88a5af70aaf775ab7bde3d4d716",
+      "fields": [
+        {
+          "bindings_hex": "0109000b",
+          "text": "音量"
+        },
+        {
+          "bindings_hex": "01090013",
+          "text": "退出"
+        }
+      ]
+    },
+    {
+      "gem": "HudScenes.gem",
+      "entry": "ESP\\MediaControllerVideo.xus",
+      "output": "payload-0.2.2/tables/HudScenes/MediaControllerVideo.xus",
+      "version": 257,
+      "stock_table_sha256": "b04fe7b6ff1e71a2ae7e5e198e1cbdc315cb47e2912dc4e667d6f0d166a45709",
+      "fields": [
+        {
+          "bindings_hex": "01090003",
+          "text": "其他主标题"
+        },
+        {
+          "bindings_hex": "01090004",
+          "text": "其他主标题"
+        },
+        {
+          "bindings_hex": "01090006",
+          "text": "当前副标题"
+        },
+        {
+          "bindings_hex": "01090007",
+          "text": "当前主标题"
+        }
+      ]
+    },
+    {
+      "gem": "HudScenes.gem",
+      "entry": "ESP\\MediaControllerVideoInfo.xus",
+      "output": "payload-0.2.2/tables/HudScenes/MediaControllerVideoInfo.xus",
+      "version": 257,
+      "stock_table_sha256": "69ce394865e3db8e601acb5294c51d81e31cd529bd098e017996f4ca705606d6",
+      "fields": [
+        {
+          "bindings_hex": "01090002",
+          "text": "其他主标题"
+        },
+        {
+          "bindings_hex": "01090003",
+          "text": "其他主标题"
+        },
+        {
+          "bindings_hex": "01090005",
+          "text": "当前副标题"
+        },
+        {
+          "bindings_hex": "01090006",
+          "text": "当前主标题"
+        }
+      ]
+    },
+    {
+      "gem": "HudScenes.gem",
+      "entry": "ESP\\MessageBox.xus",
+      "output": "payload-0.2.2/tables/HudScenes/MessageBox.xus",
+      "version": 257,
+      "stock_table_sha256": "c02acbd9de5a9697e7603b498be1a6ffc03dd76eaacd0c98399ddbbd95e068a3",
+      "fields": [
+        {
+          "bindings_hex": "01090003",
+          "text": "取消"
+        },
+        {
+          "bindings_hex": "01090004",
+          "text": "确定"
+        },
+        {
+          "bindings_hex": "01090005",
+          "text": "确定"
+        },
+        {
+          "bindings_hex": "01090006",
+          "text": "这是一个\r\n示例对话框。"
+        }
+      ]
+    },
+    {
+      "gem": "HudScenes.gem",
+      "entry": "ESP\\NetworkConnect.xus",
+      "output": "payload-0.2.2/tables/HudScenes/NetworkConnect.xus",
+      "version": 257,
+      "stock_table_sha256": "926cb731ec31a9605bc7d5d9a5987f81d9a3a90ebdf8bfa71063d9e747f8eaf5",
+      "fields": [
+        {
+          "bindings_hex": "01090003",
+          "text": "操作…"
+        }
+      ]
+    },
+    {
+      "gem": "HudScenes.gem",
+      "entry": "ESP\\NetworkList.xus",
+      "output": "payload-0.2.2/tables/HudScenes/NetworkList.xus",
+      "version": 257,
+      "stock_table_sha256": "09f5ad0bd72bc1dbfe34deb27c9437810afc78b6a6e977166c01056e2812a5e8",
+      "fields": [
+        {
+          "bindings_hex": "01090003",
+          "text": "操作…"
+        },
+        {
+          "bindings_hex": "01090004",
+          "text": "现在连接吗？"
+        },
+        {
+          "bindings_hex": "01090008",
+          "text": "网络连接"
+        }
+      ]
+    },
+    {
+      "gem": "HudScenes.gem",
+      "entry": "ESP\\OffSwitch.xus",
+      "output": "payload-0.2.2/tables/HudScenes/OffSwitch.xus",
+      "version": 257,
+      "stock_table_sha256": "39e4bc7f4b2919ff4d248acc922dd8583b1431d5ba49da59f4cedef74771164f",
+      "fields": [
+        {
+          "bindings_hex": "01090005",
+          "text": "向下滑动\r\n即可关机"
+        }
+      ]
+    },
+    {
+      "gem": "HudScenes.gem",
+      "entry": "ESP\\PasswordInput.xus",
+      "output": "payload-0.2.2/tables/HudScenes/PasswordInput.xus",
+      "version": 257,
+      "stock_table_sha256": "286f59aed9b2ce70e75e099df3be5257c7d8d699f9f9bff88a5952c6e5b93c61",
+      "fields": [
+        {
+          "bindings_hex": "01090002",
+          "text": "输入此网络的密码"
+        },
+        {
+          "bindings_hex": "01090004",
+          "text": "密码"
+        },
+        {
+          "bindings_hex": "0109000a",
+          "text": "连接\r\n        "
+        },
+        {
+          "bindings_hex": "0109000c",
+          "text": "取消"
+        }
+      ]
+    },
+    {
+      "gem": "HudScenes.gem",
+      "entry": "ESP\\PinLock.xus",
+      "output": "payload-0.2.2/tables/HudScenes/PinLock.xus",
+      "version": 257,
+      "stock_table_sha256": "a715cb7525776b57012764bec4a4e1e713cdf74e15f955b5233396bc61ee3baf",
+      "fields": [
+        {
+          "bindings_hex": "01090013",
+          "text": "设置 PIN 码"
+        },
+        {
+          "bindings_hex": "01090014",
+          "text": "取消"
+        }
+      ]
+    },
+    {
+      "gem": "HudScenes.gem",
+      "entry": "ESP\\WaitMessageBox.xus",
+      "output": "payload-0.2.2/tables/HudScenes/WaitMessageBox.xus",
+      "version": 257,
+      "stock_table_sha256": "b4f8bccff1910bfd5a7a66700d2ae6b80a06899dc44d093d2f4882e07fcfa31b",
+      "fields": [
+        {
+          "bindings_hex": "01090003",
+          "text": "请稍候…"
+        }
+      ]
+    },
+    {
+      "gem": "HudStrings.gem",
+      "entry": "ESP\\Strings.xus",
+      "output": "payload-0.2.2/tables/HudStrings/Strings.xus",
+      "version": 258,
+      "stock_table_sha256": "ca9be04b08d8276fbf5c2434e3f580569278ac23f9f2309e70ff0a85aae4e53a",
+      "fields": [
+        {
+          "copy_field": 0
+        },
+        {
+          "copy_field": 1
+        },
+        {
+          "copy_field": 2
+        },
+        {
+          "copy_field": 3
+        },
+        {
+          "copy_field": 4
+        },
+        {
+          "bindings_hex": "",
+          "text": "大小写"
+        },
+        {
+          "bindings_hex": "",
+          "text": "符号"
+        },
+        {
+          "bindings_hex": "",
+          "text": "取消"
+        },
+        {
+          "bindings_hex": "",
+          "text": "否"
+        },
+        {
+          "bindings_hex": "",
+          "text": "确定"
+        },
+        {
+          "bindings_hex": "",
+          "text": "是"
+        },
+        {
+          "bindings_hex": "",
+          "text": "此项目已丢失或无法播放。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "电量低"
+        },
+        {
+          "bindings_hex": "",
+          "text": "忘记 PIN 码了？重置 Zune 会抹掉全部内容，并停用 PIN 码。确定重置吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "PIN 码错误"
+        },
+        {
+          "bindings_hex": "",
+          "text": "要与电脑同步，请先拔下 Zune，输入 PIN 码后再重新连接。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "隐藏网络"
+        },
+        {
+          "bindings_hex": "",
+          "text": "Zune 热点"
+        },
+        {
+          "bindings_hex": "",
+          "text": "输入 PIN 码"
+        },
+        {
+          "copy_field": 19
+        },
+        {
+          "bindings_hex": "",
+          "text": "更改密码"
+        },
+        {
+          "bindings_hex": "",
+          "text": "忘记此网络"
+        },
+        {
+          "bindings_hex": "",
+          "text": "不支持此网络类型"
+        },
+        {
+          "bindings_hex": "",
+          "text": "加密网络"
+        },
+        {
+          "bindings_hex": "",
+          "text": "开放网络"
+        },
+        {
+          "bindings_hex": "",
+          "text": "连接"
+        },
+        {
+          "bindings_hex": "",
+          "text": "输入无线网络密码"
+        },
+        {
+          "bindings_hex": "",
+          "text": "已连接"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在连接…"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在开启无线网络…"
+        },
+        {
+          "bindings_hex": "",
+          "text": "连接受限"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在断开"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在搜索…"
+        },
+        {
+          "bindings_hex": "",
+          "text": "输入网络名称"
+        },
+        {
+          "bindings_hex": "",
+          "text": "连接失败"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在扫描…"
+        },
+        {
+          "bindings_hex": "",
+          "text": "已知网络"
+        },
+        {
+          "bindings_hex": "",
+          "text": "需要密码"
+        },
+        {
+          "bindings_hex": "",
+          "text": "未找到网络。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "输入的密码无效。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无线网络已关闭。现在开启吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "连接超时。重试吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "网络连接已断开。重新连接吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "要断开当前网络吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无线网络已关闭。现在开启吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法连接，可能离无线接入点太远。重试吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法连接。可能是密码有误，也可能离无线接入点太远。重试吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法连接。可能是网络名称有误，也可能离无线接入点太远。重试吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法连接。可能是网络名称或密码有误，也可能离无线接入点太远。重试吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法连接，DHCP 出错。重试吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "仅能连接本地网络。重试吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "可能需要打开浏览器才能完成网络连接。现在打开吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法连接，暂不支持此网络类型。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "附近没有可用网络。重试吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "输入的网络名称无效。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "要连接此网络，请先从底座取下 Zune，完成连接后再放回。"
+        }
+      ]
+    },
+    {
+      "gem": "ZIE_Scenes.gem",
+      "entry": "ESP\\ContextMenu.xus",
+      "output": "payload-0.2.2/tables/ZIE_Scenes/ContextMenu.xus",
+      "version": 257,
+      "stock_table_sha256": "3cc5b2eb9ec860654c69a6007dcc3c38959f55767dbf9ff20b888af617db2347",
+      "fields": [
+        {
+          "bindings_hex": "01090005",
+          "text": "快捷菜单标题"
+        }
+      ]
+    },
+    {
+      "gem": "ZIE_Scenes.gem",
+      "entry": "ESP\\Favourites.xus",
+      "output": "payload-0.2.2/tables/ZIE_Scenes/Favourites.xus",
+      "version": 257,
+      "stock_table_sha256": "b12b053727c2c4ad32caddb1717e0c89511fd705a66e78300e9dea9223c28544",
+      "fields": [
+        {
+          "bindings_hex": "01090006",
+          "text": "收藏夹"
+        },
+        {
+          "bindings_hex": "0109000d",
+          "text": "返回"
+        }
+      ]
+    },
+    {
+      "gem": "ZIE_Scenes.gem",
+      "entry": "ESP\\WebUI.xus",
+      "output": "payload-0.2.2/tables/ZIE_Scenes/WebUI.xus",
+      "version": 257,
+      "stock_table_sha256": "7a9b3fdd4d05508c6592954c730c6f26c5e1336b9adbf32f0cb1849a33685cd6",
+      "fields": [
+        {
+          "bindings_hex": "01090006",
+          "text": "完成"
+        }
+      ]
+    },
+    {
+      "gem": "ZIE_Strings.gem",
+      "entry": "ESP\\Strings.xus",
+      "output": "payload-0.2.2/tables/ZIE_Strings/Strings.xus",
+      "version": 258,
+      "stock_table_sha256": "241f72a3896bd3d06994814a6dd079080a47018fc590572e8e56031f52d5358d",
+      "fields": [
+        {
+          "copy_field": 0
+        },
+        {
+          "copy_field": 1
+        },
+        {
+          "copy_field": 2
+        },
+        {
+          "bindings_hex": "",
+          "text": "将网页保存到收藏"
+        },
+        {
+          "bindings_hex": "",
+          "text": "前往"
+        },
+        {
+          "bindings_hex": "",
+          "text": "在此输入网址"
+        },
+        {
+          "bindings_hex": "",
+          "text": "固定到快速播放"
+        },
+        {
+          "bindings_hex": "",
+          "text": "删除"
+        },
+        {
+          "bindings_hex": "",
+          "text": "重命名"
+        },
+        {
+          "bindings_hex": "",
+          "text": "浏览器"
+        },
+        {
+          "bindings_hex": "",
+          "text": "将图片保存到收藏"
+        },
+        {
+          "bindings_hex": "",
+          "text": "已固定到快速播放。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "收藏夹已满。请先删除一个已有链接，再添加新链接。"
+        },
+        {
+          "copy_field": 13
+        },
+        {
+          "copy_field": 14
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法加载此网页。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "重命名"
+        },
+        {
+          "bindings_hex": "",
+          "text": "输入新的收藏名称"
+        },
+        {
+          "bindings_hex": "",
+          "text": "未能保存网页。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "网页已保存。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "未能保存图片。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "图片已保存。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "搜索"
+        },
+        {
+          "bindings_hex": "",
+          "text": "用必应搜索"
+        },
+        {
+          "copy_field": 24
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\AcsFW.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/AcsFW.xus",
+      "version": 257,
+      "stock_table_sha256": "43ec41706cd00e14f0d13ad8aa8428319a65e9a49e1922291fed78578754e7dd",
+      "fields": [
+        {
+          "bindings_hex": "01090002",
+          "text": "确定"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\Cart.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/Cart.xus",
+      "version": 257,
+      "stock_table_sha256": "1c96facb0df649f1855886893d5bdc362d937865c5593027b864cb43fbe5d1bd",
+      "fields": [
+        {
+          "bindings_hex": "0100000b",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090002",
+          "text": "全部购买"
+        },
+        {
+          "bindings_hex": "01090003",
+          "text": "清空购物车"
+        },
+        {
+          "bindings_hex": "01090007",
+          "text": "暂无内容。"
+        },
+        {
+          "bindings_hex": "0109000d",
+          "text": "返回"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\CartConfirm.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/CartConfirm.xus",
+      "version": 257,
+      "stock_table_sha256": "b40dfc0b728ea78fcf5e4ae18ac7d73a582956c2d9530de484f1696574e2b4a0",
+      "fields": [
+        {
+          "bindings_hex": "01090003",
+          "text": "取消"
+        },
+        {
+          "bindings_hex": "01090004",
+          "text": "全部购买"
+        },
+        {
+          "bindings_hex": "01090007",
+          "text": "当前积分余额"
+        },
+        {
+          "bindings_hex": "0109000a",
+          "text": "购买后余额"
+        },
+        {
+          "bindings_hex": "0109000c",
+          "text": "错误信息"
+        },
+        {
+          "bindings_hex": "0109000d",
+          "text": "确认购买"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\ContextMenu.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/ContextMenu.xus",
+      "version": 257,
+      "stock_table_sha256": "3cc5b2eb9ec860654c69a6007dcc3c38959f55767dbf9ff20b888af617db2347",
+      "fields": [
+        {
+          "bindings_hex": "01090005",
+          "text": "快捷菜单标题"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\FriendsListContent.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/FriendsListContent.xus",
+      "version": 257,
+      "stock_table_sha256": "93cf61369499130e72badaf5362f3088bfdb0b9a95b0bb62c2d4588f0c5dd61e",
+      "fields": [
+        {
+          "bindings_hex": "01090002",
+          "text": "请用电脑上的 Zune 软件同步好友列表"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\InboxDetails.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/InboxDetails.xus",
+      "version": 257,
+      "stock_table_sha256": "ec9a80faddb5985f11d1674e912d56515899fadc2646d43c272bbc0dcf4a179a",
+      "fields": [
+        {
+          "bindings_hex": "01000015",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090008",
+          "text": "00/00/00 下午 00:00"
+        },
+        {
+          "bindings_hex": "01090017",
+          "text": "返回"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\InboxListContent.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/InboxListContent.xus",
+      "version": 257,
+      "stock_table_sha256": "65eea2ff2de1ce9275c18e2791ca06081524cd27e803878f3c0617d72fa66d6e",
+      "fields": [
+        {
+          "bindings_hex": "01090002",
+          "text": "暂无消息。"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\LibraryAlbumGridContent.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/LibraryAlbumGridContent.xus",
+      "version": 257,
+      "stock_table_sha256": "63133ca961957547259c8c6701151afc296072e3e3a48508c35e2b510b137931",
+      "fields": [
+        {
+          "bindings_hex": "01090002",
+          "text": "使用 Zune Pass，畅享不限量音乐"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\LibraryAlbumList.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/LibraryAlbumList.xus",
+      "version": 257,
+      "stock_table_sha256": "c8966c9b8529c2d94f019445a7761761f40cee5229c2501a80e1a0821dc0ff36",
+      "fields": [
+        {
+          "bindings_hex": "01000008",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090004",
+          "text": "暂无内容。"
+        },
+        {
+          "bindings_hex": "0109000a",
+          "text": "返回"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\LibraryAlbumListContent.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/LibraryAlbumListContent.xus",
+      "version": 257,
+      "stock_table_sha256": "63133ca961957547259c8c6701151afc296072e3e3a48508c35e2b510b137931",
+      "fields": [
+        {
+          "bindings_hex": "01090002",
+          "text": "使用 Zune Pass，畅享不限量音乐"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\LibraryAlbumSongList.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/LibraryAlbumSongList.xus",
+      "version": 257,
+      "stock_table_sha256": "67edd43d5388efebb5b7c1224745779c5383a4dacf916c1c33246bd495c29cb7",
+      "fields": [
+        {
+          "bindings_hex": "0100000d",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090007",
+          "text": "暂无内容。"
+        },
+        {
+          "bindings_hex": "0109000b",
+          "text": "艺人"
+        },
+        {
+          "bindings_hex": "0109000c",
+          "text": "歌曲"
+        },
+        {
+          "bindings_hex": "0109000f",
+          "text": "返回"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\LibraryArtist.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/LibraryArtist.xus",
+      "version": 257,
+      "stock_table_sha256": "f57183d7e0c1259d3e6d5193232664905d78ba769b85578b72ee3d53e9cb63c4",
+      "fields": [
+        {
+          "bindings_hex": "01000009",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090007",
+          "text": "艺人"
+        },
+        {
+          "bindings_hex": "0109000b",
+          "text": "返回"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\LibraryArtistAboutContent.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/LibraryArtistAboutContent.xus",
+      "version": 257,
+      "stock_table_sha256": "3322c601eec140a886f770fad086f7c783a2af5aa747ee8d684ff11e5f7a40eb",
+      "fields": [
+        {
+          "bindings_hex": "01090002",
+          "text": "艺人"
+        },
+        {
+          "bindings_hex": "01090004",
+          "text": "正在加载…"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\LibraryArtistAlbumListContent.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/LibraryArtistAlbumListContent.xus",
+      "version": 257,
+      "stock_table_sha256": "6b8ffabc681db79daeac8b3e110b583e22a82dcd2c8d62ca454141ca9d644525",
+      "fields": [
+        {
+          "bindings_hex": "01090007",
+          "text": "已在收藏中"
+        },
+        {
+          "bindings_hex": "01090008",
+          "text": "暂无内容。"
+        },
+        {
+          "bindings_hex": "0109000b",
+          "text": "商店中的专辑"
+        },
+        {
+          "bindings_hex": "0109000d",
+          "text": "暂无内容。"
+        },
+        {
+          "bindings_hex": "0109000e",
+          "text": "正在加载…"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\LibraryArtistListContent.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/LibraryArtistListContent.xus",
+      "version": 257,
+      "stock_table_sha256": "ccfcb78fc016b9041dc851a263d236e96a57a5f740aa02292f7ba80107623e11",
+      "fields": [
+        {
+          "bindings_hex": "01090002",
+          "text": "在 Zune 商店发现更多艺人"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\LibraryArtistPhotoGridContent.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/LibraryArtistPhotoGridContent.xus",
+      "version": 257,
+      "stock_table_sha256": "166e89cf8caeb3fd08598ce1be339662251759ff1605e766004f5bd3dde025b2",
+      "fields": [
+        {
+          "bindings_hex": "01090002",
+          "text": "暂无内容。"
+        },
+        {
+          "bindings_hex": "01090003",
+          "text": "正在加载…"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\LibraryArtistRelatedListContent.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/LibraryArtistRelatedListContent.xus",
+      "version": 257,
+      "stock_table_sha256": "166e89cf8caeb3fd08598ce1be339662251759ff1605e766004f5bd3dde025b2",
+      "fields": [
+        {
+          "bindings_hex": "01090002",
+          "text": "暂无内容。"
+        },
+        {
+          "bindings_hex": "01090003",
+          "text": "正在加载…"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\LibraryArtistSongListContent.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/LibraryArtistSongListContent.xus",
+      "version": 257,
+      "stock_table_sha256": "e1de028060758ecbc76d9f365ca38fc1b55975b7be5ded53344b485344bac172",
+      "fields": [
+        {
+          "bindings_hex": "01090007",
+          "text": "已在收藏中"
+        },
+        {
+          "bindings_hex": "01090008",
+          "text": "暂无内容。"
+        },
+        {
+          "bindings_hex": "0109000a",
+          "text": "商店热门歌曲"
+        },
+        {
+          "bindings_hex": "0109000c",
+          "text": "暂无内容。"
+        },
+        {
+          "bindings_hex": "0109000d",
+          "text": "正在加载…"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\LibraryAudiobookPart.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/LibraryAudiobookPart.xus",
+      "version": 257,
+      "stock_table_sha256": "f6ede4a38e2c14c6a998129dbc6e6d607fafa189208866afb2c8370cfaabb019",
+      "fields": [
+        {
+          "bindings_hex": "0100000e",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090007",
+          "text": "作者"
+        },
+        {
+          "bindings_hex": "01090008",
+          "text": "日期"
+        },
+        {
+          "bindings_hex": "0109000a",
+          "text": "时长"
+        },
+        {
+          "bindings_hex": "0109000d",
+          "text": "有声书"
+        },
+        {
+          "bindings_hex": "01090010",
+          "text": "返回"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\LibraryCategory.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/LibraryCategory.xus",
+      "version": 257,
+      "stock_table_sha256": "28882345f59f9131ba4d55b5a5b6f19047f0f03b5d03ea8eae668ffad75a5208",
+      "fields": [
+        {
+          "bindings_hex": "01000002",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090004",
+          "text": "返回"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\LibraryGame.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/LibraryGame.xus",
+      "version": 257,
+      "stock_table_sha256": "f0114ccf1aeecd384cbdfb772b0fc76c5d3998c09a3fbcdf4acdce7859355be3",
+      "fields": [
+        {
+          "bindings_hex": "01000011",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090006",
+          "text": "版本"
+        },
+        {
+          "bindings_hex": "01090008",
+          "text": "发行商"
+        },
+        {
+          "copy_field": 3
+        },
+        {
+          "bindings_hex": "01090010",
+          "text": "游戏"
+        },
+        {
+          "bindings_hex": "01090013",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090014",
+          "text": "详情"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\LibraryGameList.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/LibraryGameList.xus",
+      "version": 257,
+      "stock_table_sha256": "bbb7ec3cf91a01531598233e55584c2314eb09a742855fb111097ae1faef8a57",
+      "fields": [
+        {
+          "bindings_hex": "01000006",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090002",
+          "text": "在 Zune 商店发现更多应用"
+        },
+        {
+          "bindings_hex": "01090008",
+          "text": "返回"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\LibraryGenreAlbumList.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/LibraryGenreAlbumList.xus",
+      "version": 257,
+      "stock_table_sha256": "4d21982770f6228f348a4409aa200b957a71a44f01ed3e602ed0d5525d90deec",
+      "fields": [
+        {
+          "bindings_hex": "0100000b",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090006",
+          "text": "暂无内容"
+        },
+        {
+          "bindings_hex": "0109000a",
+          "text": "流派"
+        },
+        {
+          "bindings_hex": "0109000d",
+          "text": "返回"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\LibraryGenreListContent.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/LibraryGenreListContent.xus",
+      "version": 257,
+      "stock_table_sha256": "57b879e66dd86200263497022db79372a2f21f04926c01c20a7e338509fccf7a",
+      "fields": [
+        {
+          "bindings_hex": "01090002",
+          "text": "在 Zune 商店寻找喜欢的音乐流派"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\LibraryLetterPicker.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/LibraryLetterPicker.xus",
+      "version": 257,
+      "stock_table_sha256": "cdedbe5974d0f852acc121e1ed205dd262561acb00a0ccf202898c4776d53b4f",
+      "fields": [
+        {
+          "bindings_hex": "01090007",
+          "text": "退出"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\LibraryPictureGrid.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/LibraryPictureGrid.xus",
+      "version": 257,
+      "stock_table_sha256": "dfc9584a8e44ed649c8ce8ff6d12b40c71fe1c5799eef69fb5ab5e9ed8db70d4",
+      "fields": [
+        {
+          "bindings_hex": "01000007",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090002",
+          "text": "暂无内容。"
+        },
+        {
+          "bindings_hex": "01090006",
+          "text": "专辑"
+        },
+        {
+          "bindings_hex": "01090009",
+          "text": "返回"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\LibraryPictureGridContent.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/LibraryPictureGridContent.xus",
+      "version": 257,
+      "stock_table_sha256": "9b61ab5590bea803a8324d2e71ba3bdacc7d3e8888b1d75e69edb12b26adec16",
+      "fields": [
+        {
+          "bindings_hex": "01090002",
+          "text": "暂无内容。"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\LibraryPlaylistListContent.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/LibraryPlaylistListContent.xus",
+      "version": 257,
+      "stock_table_sha256": "9b61ab5590bea803a8324d2e71ba3bdacc7d3e8888b1d75e69edb12b26adec16",
+      "fields": [
+        {
+          "bindings_hex": "01090002",
+          "text": "暂无内容。"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\LibraryPodcast.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/LibraryPodcast.xus",
+      "version": 257,
+      "stock_table_sha256": "94b51e2f4d11a3ec76b5247d73e3dd44b62f24d062982fa27d668b0acd8181fa",
+      "fields": [
+        {
+          "bindings_hex": "0100000e",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090007",
+          "text": "日期"
+        },
+        {
+          "bindings_hex": "01090008",
+          "text": "时长"
+        },
+        {
+          "bindings_hex": "0109000a",
+          "text": "简介\r\n                    "
+        },
+        {
+          "bindings_hex": "01090010",
+          "text": "返回"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\LibraryPodcastEpisodeList.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/LibraryPodcastEpisodeList.xus",
+      "version": 257,
+      "stock_table_sha256": "b1425ad291e7adb4d79e3fd8459adf5a9c89b622c1a5d45d32410b5f40ec0f91",
+      "fields": [
+        {
+          "bindings_hex": "0100000b",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090005",
+          "text": "暂无内容。"
+        },
+        {
+          "bindings_hex": "01090009",
+          "text": "艺人"
+        },
+        {
+          "bindings_hex": "0109000a",
+          "text": "歌曲"
+        },
+        {
+          "bindings_hex": "0109000d",
+          "text": "返回"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\LibrarySend_Compose.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/LibrarySend_Compose.xus",
+      "version": 257,
+      "stock_table_sha256": "105b01cf87bd61576d7598a34146dfd425e97e271a2739f0ac42263051c9af12",
+      "fields": [
+        {
+          "bindings_hex": "0100000a",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090001",
+          "text": "发送"
+        },
+        {
+          "bindings_hex": "01090003",
+          "text": "附上留言"
+        },
+        {
+          "bindings_hex": "01090006",
+          "text": "待发送的内容"
+        },
+        {
+          "bindings_hex": "01090009",
+          "text": "收件人"
+        },
+        {
+          "bindings_hex": "0109000c",
+          "text": "返回"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\LibrarySend_FriendsList.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/LibrarySend_FriendsList.xus",
+      "version": 257,
+      "stock_table_sha256": "8fca54e8db96ae33c730d34f3b18c0a0deb84c8c8dcbc89dfebdd9e77c01e29f",
+      "fields": [
+        {
+          "bindings_hex": "01000009",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090002",
+          "text": "可在电脑上的 Zune 社区查找好友。"
+        },
+        {
+          "bindings_hex": "01090003",
+          "text": "暂时无法获取好友列表，请稍后再试。"
+        },
+        {
+          "bindings_hex": "01090008",
+          "text": "Zune 标签或邮箱"
+        },
+        {
+          "bindings_hex": "0109000b",
+          "text": "返回"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\LibrarySong.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/LibrarySong.xus",
+      "version": 257,
+      "stock_table_sha256": "a4460c22a5d2f9d2e2148d247698a155277a6c284517778e03490b61251e51af",
+      "fields": [
+        {
+          "bindings_hex": "01000010",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090009",
+          "text": "艺人"
+        },
+        {
+          "bindings_hex": "0109000a",
+          "text": "专辑"
+        },
+        {
+          "bindings_hex": "0109000c",
+          "text": "数字版权信息"
+        },
+        {
+          "bindings_hex": "0109000f",
+          "text": "歌曲"
+        },
+        {
+          "bindings_hex": "01090012",
+          "text": "返回"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\LibrarySongList.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/LibrarySongList.xus",
+      "version": 257,
+      "stock_table_sha256": "6ef03c885855c21d1ad82e96277c1470e181dccc4ceb5506a66ef26edacdc032",
+      "fields": [
+        {
+          "bindings_hex": "0100000c",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090007",
+          "text": "暂无内容。"
+        },
+        {
+          "bindings_hex": "0109000b",
+          "text": "名称"
+        },
+        {
+          "bindings_hex": "0109000e",
+          "text": "返回"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\LibrarySongListContent.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/LibrarySongListContent.xus",
+      "version": 257,
+      "stock_table_sha256": "63133ca961957547259c8c6701151afc296072e3e3a48508c35e2b510b137931",
+      "fields": [
+        {
+          "bindings_hex": "01090002",
+          "text": "使用 Zune Pass，畅享不限量音乐"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\LibraryVideo.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/LibraryVideo.xus",
+      "version": 257,
+      "stock_table_sha256": "a1be0436868cf2dbbb392db2b66d7536cea496c5bee7463733594a7ed417e6d6",
+      "fields": [
+        {
+          "bindings_hex": "0100000f",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090008",
+          "text": "信息"
+        },
+        {
+          "bindings_hex": "0109000d",
+          "text": "许可证"
+        },
+        {
+          "bindings_hex": "0109000e",
+          "text": "视频"
+        },
+        {
+          "bindings_hex": "01090011",
+          "text": "返回"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\LibraryVideoSeriesListContent.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/LibraryVideoSeriesListContent.xus",
+      "version": 257,
+      "stock_table_sha256": "9b61ab5590bea803a8324d2e71ba3bdacc7d3e8888b1d75e69edb12b26adec16",
+      "fields": [
+        {
+          "bindings_hex": "01090002",
+          "text": "暂无内容。"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\Marketplace.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/Marketplace.xus",
+      "version": 257,
+      "stock_table_sha256": "64844b3817150e0ffa21907e1652c6e5a96b0dfc0c2df66f5e7f90085a42addf",
+      "fields": [
+        {
+          "bindings_hex": "01000008",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090003",
+          "text": "音乐"
+        },
+        {
+          "bindings_hex": "01090004",
+          "text": "应用"
+        },
+        {
+          "bindings_hex": "01090005",
+          "text": "搜索"
+        },
+        {
+          "bindings_hex": "01090006",
+          "text": "购物车"
+        },
+        {
+          "bindings_hex": "0109000a",
+          "text": "返回"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\MarketplaceAlbum.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/MarketplaceAlbum.xus",
+      "version": 257,
+      "stock_table_sha256": "78046920c1c13d4351519a1b1e4b44d597b71492bc1a5b58f4ad7051f0c6b427",
+      "fields": [
+        {
+          "bindings_hex": "01000014",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090009",
+          "text": "格式"
+        },
+        {
+          "bindings_hex": "0109000a",
+          "text": "价格"
+        },
+        {
+          "bindings_hex": "0109000c",
+          "text": "暂无内容。"
+        },
+        {
+          "bindings_hex": "0109000d",
+          "text": "正在加载…"
+        },
+        {
+          "bindings_hex": "01090012",
+          "text": "艺人"
+        },
+        {
+          "bindings_hex": "01090013",
+          "text": "专辑"
+        },
+        {
+          "bindings_hex": "01090016",
+          "text": "返回"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\MarketplaceGames.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/MarketplaceGames.xus",
+      "version": 257,
+      "stock_table_sha256": "627ab5abf467c2fea34e3a61da8dd84ae784f47f81804093fe302abb2b941861",
+      "fields": [
+        {
+          "bindings_hex": "01000008",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "0109000a",
+          "text": "返回"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\MarketplaceGamesDetails.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/MarketplaceGamesDetails.xus",
+      "version": 257,
+      "stock_table_sha256": "09c3f73f97cecf9bf722aa294d709e6c7ca81e9b631ea0d0d834fcfcaad413a2",
+      "fields": [
+        {
+          "bindings_hex": "01000009",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "0109000b",
+          "text": "返回"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\MarketplaceGamesDetailsContent.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/MarketplaceGamesDetailsContent.xus",
+      "version": 257,
+      "stock_table_sha256": "01c88946567997db823398131a43d05df9936edb8a4643472ba8145fa7634a04",
+      "fields": [
+        {
+          "bindings_hex": "01090008",
+          "text": "正在加载…"
+        },
+        {
+          "bindings_hex": "01090009",
+          "text": "价格"
+        },
+        {
+          "bindings_hex": "0109000b",
+          "text": "版本"
+        },
+        {
+          "bindings_hex": "0109000d",
+          "text": "发行商"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\MarketplaceGamesListContent.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/MarketplaceGamesListContent.xus",
+      "version": 257,
+      "stock_table_sha256": "5e908f83b5f51fff704de1b6be746080dd5da3a86e0d97bbb11096b1252389c1",
+      "fields": [
+        {
+          "bindings_hex": "01090002",
+          "text": "将所有更新加入购物车"
+        },
+        {
+          "bindings_hex": "01090005",
+          "text": "暂无内容。"
+        },
+        {
+          "bindings_hex": "01090007",
+          "text": "正在加载…"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\MarketplaceGamesScreensContent.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/MarketplaceGamesScreensContent.xus",
+      "version": 257,
+      "stock_table_sha256": "166e89cf8caeb3fd08598ce1be339662251759ff1605e766004f5bd3dde025b2",
+      "fields": [
+        {
+          "bindings_hex": "01090002",
+          "text": "暂无内容。"
+        },
+        {
+          "bindings_hex": "01090003",
+          "text": "正在加载…"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\MarketplaceMusic.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/MarketplaceMusic.xus",
+      "version": 257,
+      "stock_table_sha256": "46989034a765b33fb3e5f77cb2b7105e65011735705da9ccee88003a5efa2aeb",
+      "fields": [
+        {
+          "bindings_hex": "01000004",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090006",
+          "text": "返回"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\MarketplaceMusicNewReleasesContent.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/MarketplaceMusicNewReleasesContent.xus",
+      "version": 257,
+      "stock_table_sha256": "df978d936e72c92734d0508f90581bd3c2cd3613c47748835d7f0681b80ab5a5",
+      "fields": [
+        {
+          "bindings_hex": "01090002",
+          "text": "暂无内容。"
+        },
+        {
+          "bindings_hex": "01090004",
+          "text": "正在加载…"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\MarketplaceMusicPicksContent.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/MarketplaceMusicPicksContent.xus",
+      "version": 257,
+      "stock_table_sha256": "df978d936e72c92734d0508f90581bd3c2cd3613c47748835d7f0681b80ab5a5",
+      "fields": [
+        {
+          "bindings_hex": "01090002",
+          "text": "暂无内容。"
+        },
+        {
+          "bindings_hex": "01090004",
+          "text": "正在加载…"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\MarketplaceMusicTopAlbums.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/MarketplaceMusicTopAlbums.xus",
+      "version": 257,
+      "stock_table_sha256": "627ab5abf467c2fea34e3a61da8dd84ae784f47f81804093fe302abb2b941861",
+      "fields": [
+        {
+          "bindings_hex": "01000008",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "0109000a",
+          "text": "返回"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\MarketplaceMusicTopAlbumsContent.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/MarketplaceMusicTopAlbumsContent.xus",
+      "version": 257,
+      "stock_table_sha256": "df978d936e72c92734d0508f90581bd3c2cd3613c47748835d7f0681b80ab5a5",
+      "fields": [
+        {
+          "bindings_hex": "01090002",
+          "text": "暂无内容。"
+        },
+        {
+          "bindings_hex": "01090004",
+          "text": "正在加载…"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\MarketplaceMusicTopAlbumsGenresContent.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/MarketplaceMusicTopAlbumsGenresContent.xus",
+      "version": 257,
+      "stock_table_sha256": "9b61ab5590bea803a8324d2e71ba3bdacc7d3e8888b1d75e69edb12b26adec16",
+      "fields": [
+        {
+          "bindings_hex": "01090002",
+          "text": "暂无内容。"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\MarketplaceMusicTopSongs.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/MarketplaceMusicTopSongs.xus",
+      "version": 257,
+      "stock_table_sha256": "46989034a765b33fb3e5f77cb2b7105e65011735705da9ccee88003a5efa2aeb",
+      "fields": [
+        {
+          "bindings_hex": "01000004",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090006",
+          "text": "返回"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\MarketplaceMusicTopSongsContent.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/MarketplaceMusicTopSongsContent.xus",
+      "version": 257,
+      "stock_table_sha256": "166e89cf8caeb3fd08598ce1be339662251759ff1605e766004f5bd3dde025b2",
+      "fields": [
+        {
+          "bindings_hex": "01090002",
+          "text": "暂无内容。"
+        },
+        {
+          "bindings_hex": "01090003",
+          "text": "正在加载…"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\MarketplaceMusicTopSongsGenresContent.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/MarketplaceMusicTopSongsGenresContent.xus",
+      "version": 257,
+      "stock_table_sha256": "9b61ab5590bea803a8324d2e71ba3bdacc7d3e8888b1d75e69edb12b26adec16",
+      "fields": [
+        {
+          "bindings_hex": "01090002",
+          "text": "暂无内容。"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\MarketplaceSearch.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/MarketplaceSearch.xus",
+      "version": 257,
+      "stock_table_sha256": "48ea2e5db6583e8a3c11b9f733da4ec8df467da77f9577b2077e468fdbcaaeb8",
+      "fields": [
+        {
+          "bindings_hex": "01000005",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090003",
+          "text": "搜索： "
+        },
+        {
+          "bindings_hex": "01090007",
+          "text": "返回"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\MarketplaceSearchAlbumsContent.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/MarketplaceSearchAlbumsContent.xus",
+      "version": 257,
+      "stock_table_sha256": "df978d936e72c92734d0508f90581bd3c2cd3613c47748835d7f0681b80ab5a5",
+      "fields": [
+        {
+          "bindings_hex": "01090002",
+          "text": "暂无内容。"
+        },
+        {
+          "bindings_hex": "01090004",
+          "text": "正在加载…"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\MarketplaceSearchArtistsContent.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/MarketplaceSearchArtistsContent.xus",
+      "version": 257,
+      "stock_table_sha256": "df978d936e72c92734d0508f90581bd3c2cd3613c47748835d7f0681b80ab5a5",
+      "fields": [
+        {
+          "bindings_hex": "01090002",
+          "text": "暂无内容。"
+        },
+        {
+          "bindings_hex": "01090004",
+          "text": "正在加载…"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\MarketplaceSearchSongsContent.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/MarketplaceSearchSongsContent.xus",
+      "version": 257,
+      "stock_table_sha256": "df978d936e72c92734d0508f90581bd3c2cd3613c47748835d7f0681b80ab5a5",
+      "fields": [
+        {
+          "bindings_hex": "01090002",
+          "text": "暂无内容。"
+        },
+        {
+          "bindings_hex": "01090004",
+          "text": "正在加载…"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\MarketplaceSong.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/MarketplaceSong.xus",
+      "version": 257,
+      "stock_table_sha256": "78091df9b6afecdbede845e4d3b59ff76b2c967427e6e289893eb16f0898cb77",
+      "fields": [
+        {
+          "bindings_hex": "01000014",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090009",
+          "text": "艺人"
+        },
+        {
+          "bindings_hex": "0109000a",
+          "text": "专辑"
+        },
+        {
+          "bindings_hex": "0109000c",
+          "text": "格式"
+        },
+        {
+          "bindings_hex": "0109000d",
+          "text": "价格"
+        },
+        {
+          "bindings_hex": "0109000f",
+          "text": "可预览"
+        },
+        {
+          "bindings_hex": "01090010",
+          "text": "正在加载…"
+        },
+        {
+          "bindings_hex": "01090013",
+          "text": "歌曲"
+        },
+        {
+          "bindings_hex": "01090016",
+          "text": "返回"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\NowPlayingMusicList.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/NowPlayingMusicList.xus",
+      "version": 257,
+      "stock_table_sha256": "257ba4585cc6cd43ea0e7cf29b432f3d422f7d8f97723908d0745dbadb203b39",
+      "fields": [
+        {
+          "bindings_hex": "01000005",
+          "text": "名称"
+        },
+        {
+          "bindings_hex": "01090004",
+          "text": "播放队列"
+        },
+        {
+          "bindings_hex": "01090006",
+          "text": "名称"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\NowPlayingMusicMain.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/NowPlayingMusicMain.xus",
+      "version": 257,
+      "stock_table_sha256": "eb009549fcc9c25dc8d450e7cc46146647005d5a4c44599d23450660968c4aff",
+      "fields": [
+        {
+          "bindings_hex": "01090006",
+          "text": "艺人"
+        },
+        {
+          "bindings_hex": "01090007",
+          "text": "专辑"
+        },
+        {
+          "bindings_hex": "01090019",
+          "text": "名称"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\NowPlayingPicturesMain.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/NowPlayingPicturesMain.xus",
+      "version": 257,
+      "stock_table_sha256": "7e71581922b4c3c10ef0e06aa5ec78b2308cab171ac78217bbf5e26dcb550d98",
+      "fields": [
+        {
+          "bindings_hex": "0109000d",
+          "text": "设为背景"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\NowplayingRadioPresetList.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/NowplayingRadioPresetList.xus",
+      "version": 257,
+      "stock_table_sha256": "7621aaa7a01035da60e5b9201bc92978cd6de5e100ba40ab61a5279e2a5e4b00",
+      "fields": [
+        {
+          "bindings_hex": "01000005",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090001",
+          "text": "尚未预设电台。"
+        },
+        {
+          "bindings_hex": "01090006",
+          "text": "返回"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\QueueList.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/QueueList.xus",
+      "version": 257,
+      "stock_table_sha256": "6ef03c885855c21d1ad82e96277c1470e181dccc4ceb5506a66ef26edacdc032",
+      "fields": [
+        {
+          "bindings_hex": "0100000c",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090007",
+          "text": "暂无内容。"
+        },
+        {
+          "bindings_hex": "0109000b",
+          "text": "名称"
+        },
+        {
+          "bindings_hex": "0109000e",
+          "text": "返回"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\Refresh.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/Refresh.xus",
+      "version": 257,
+      "stock_table_sha256": "bc90bd548837ca30fa5742be58aac33c10d5cfa78508aa615ee53cf4248d1589",
+      "fields": [
+        {
+          "bindings_hex": "01090003",
+          "text": "取消"
+        },
+        {
+          "bindings_hex": "01090002",
+          "text": "10%"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\Setting.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/Setting.xus",
+      "version": 257,
+      "stock_table_sha256": "af3b2dbf735067237e459efe32875c9bdb84f41e3cb13145774d6dc73eb27d0b",
+      "fields": [
+        {
+          "bindings_hex": "01000005",
+          "text": "设置"
+        },
+        {
+          "bindings_hex": "01090007",
+          "text": "设置"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\Setting_About.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/Setting_About.xus",
+      "version": 257,
+      "stock_table_sha256": "764503ea9244df82f7a2c16696c5bcd704b971278ab46b4d374742b58734b819",
+      "fields": [
+        {
+          "bindings_hex": "01000009",
+          "text": "关于"
+        },
+        {
+          "bindings_hex": "01090004",
+          "text": "播放器名称"
+        },
+        {
+          "bindings_hex": "01090005",
+          "text": "版本"
+        },
+        {
+          "bindings_hex": "01090007",
+          "text": "© 2010 Microsoft Corporation。本产品受美国及国际版权法保护。"
+        },
+        {
+          "bindings_hex": "0109000b",
+          "text": "关于"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\Setting_Legal.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/Setting_Legal.xus",
+      "version": 257,
+      "stock_table_sha256": "8540bab83c5d3436e781b48ef8e660a4cfb6d1ba2cc65c4cf4e4afe5fa87f673",
+      "fields": [
+        {
+          "bindings_hex": "01090001",
+          "text": "本产品受美国及国际版权法保护。\r\n\r\n本产品部分功能基于独立 JPEG 小组的工作。"
+        },
+        {
+          "bindings_hex": "01000004",
+          "text": "法律声明"
+        },
+        {
+          "bindings_hex": "01090006",
+          "text": "法律声明"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\Setting_PinLock.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/Setting_PinLock.xus",
+      "version": 257,
+      "stock_table_sha256": "03ffc5788cc269056296b1152d616dd904ab76378f35f80f0455b3648e048159",
+      "fields": [
+        {
+          "bindings_hex": "01090012",
+          "text": "设置 PIN 码"
+        },
+        {
+          "bindings_hex": "01090013",
+          "text": "取消"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\Setting_SetTime24.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/Setting_SetTime24.xus",
+      "version": 257,
+      "stock_table_sha256": "9044d99e7b5f0a71b55d6b6d185fa33aeb684836428f7823899a2d23490cd5c7",
+      "fields": [
+        {
+          "bindings_hex": "01000001",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090003",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090012",
+          "text": "取消"
+        },
+        {
+          "bindings_hex": "01090013",
+          "text": "确定"
+        },
+        {
+          "bindings_hex": "01090014",
+          "text": "输入时间"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\Setting_SetTimeAmPm.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/Setting_SetTimeAmPm.xus",
+      "version": 257,
+      "stock_table_sha256": "eae7bba7fe554ac40eb3d1a56f0ad6575d257ec62336795e2145b594d282f768",
+      "fields": [
+        {
+          "bindings_hex": "01000001",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090003",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090017",
+          "text": "取消"
+        },
+        {
+          "bindings_hex": "01090018",
+          "text": "确定"
+        },
+        {
+          "bindings_hex": "01090019",
+          "text": "输入时间"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\Setting_Storage.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/Setting_Storage.xus",
+      "version": 257,
+      "stock_table_sha256": "246f6f914f41b8639f803c33f35e6af8969814e229ea0bc7b5c630eba02c9f3f",
+      "fields": [
+        {
+          "bindings_hex": "0100000b",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090002",
+          "text": "0 首歌曲"
+        },
+        {
+          "bindings_hex": "01090003",
+          "text": "0 张照片"
+        },
+        {
+          "bindings_hex": "01090004",
+          "text": "已用 0 GB"
+        },
+        {
+          "bindings_hex": "01090006",
+          "text": "已用 0 GB"
+        },
+        {
+          "bindings_hex": "01090007",
+          "text": "可用 0 GB"
+        },
+        {
+          "bindings_hex": "0109000d",
+          "text": "返回"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\SettingsList.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/SettingsList.xus",
+      "version": 257,
+      "stock_table_sha256": "af3b2dbf735067237e459efe32875c9bdb84f41e3cb13145774d6dc73eb27d0b",
+      "fields": [
+        {
+          "bindings_hex": "01000005",
+          "text": "设置"
+        },
+        {
+          "bindings_hex": "01090007",
+          "text": "设置"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\Social.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/Social.xus",
+      "version": 257,
+      "stock_table_sha256": "28882345f59f9131ba4d55b5a5b6f19047f0f03b5d03ea8eae668ffad75a5208",
+      "fields": [
+        {
+          "bindings_hex": "01000002",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090004",
+          "text": "返回"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\Start.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/Start.xus",
+      "version": 257,
+      "stock_table_sha256": "bf09a8921d834a2dbc97c137991d1c066bed27ff1a86d585f859317b75bc5c51",
+      "fields": [
+        {
+          "bindings_hex": "0109000b",
+          "text": "正在播放"
+        },
+        {
+          "bindings_hex": "0109000c",
+          "text": "已暂停"
+        },
+        {
+          "bindings_hex": "01090010",
+          "text": "长按音乐、视频等项目，即可将其固定到“快速播放”。"
+        },
+        {
+          "bindings_hex": "01090011",
+          "text": "历史记录"
+        },
+        {
+          "bindings_hex": "01090012",
+          "text": "最近添加"
+        },
+        {
+          "bindings_hex": "0109000f",
+          "text": "已固定"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\StartExtras.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/StartExtras.xus",
+      "version": 257,
+      "stock_table_sha256": "3290ab2bd8488a2c6f62e04559413f4d9068c4c4065f04bfb8b0df197951d8fa",
+      "fields": [
+        {
+          "bindings_hex": "01000007",
+          "text": "更多"
+        },
+        {
+          "bindings_hex": "01090009",
+          "text": "更多"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\Sync.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/Sync.xus",
+      "version": 257,
+      "stock_table_sha256": "bc90bd548837ca30fa5742be58aac33c10d5cfa78508aa615ee53cf4248d1589",
+      "fields": [
+        {
+          "bindings_hex": "01090003",
+          "text": "取消"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\TvOutputSelector.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/TvOutputSelector.xus",
+      "version": 257,
+      "stock_table_sha256": "d40560fe55cd3adb064851c96b64f1232cc81b31a78c05c60045cc53ea55e1c1",
+      "fields": [
+        {
+          "bindings_hex": "01090004",
+          "text": "复合视频"
+        },
+        {
+          "bindings_hex": "01090005",
+          "text": "无"
+        },
+        {
+          "bindings_hex": "01090006",
+          "text": "选择视频输出"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\UserCard.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/UserCard.xus",
+      "version": 257,
+      "stock_table_sha256": "c632d6baa32603868894dc48f3895eb1141f5a904f142ac77d815c6601d180bd",
+      "fields": [
+        {
+          "bindings_hex": "01000005",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090003",
+          "text": "艺人"
+        },
+        {
+          "bindings_hex": "01090007",
+          "text": "返回"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\UserCardSongListContent.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/UserCardSongListContent.xus",
+      "version": 257,
+      "stock_table_sha256": "ae3167d75ac15d0c65d379531c9a0bbc7b437b374c34300665d6c1370beab56b",
+      "fields": [
+        {
+          "bindings_hex": "01090006",
+          "text": "暂无内容"
+        }
+      ]
+    },
+    {
+      "gem": "scenes_standard.gem",
+      "entry": "ESP\\Wireless_Info.xus",
+      "output": "payload-0.2.2/tables/scenes_standard/Wireless_Info.xus",
+      "version": 257,
+      "stock_table_sha256": "46989034a765b33fb3e5f77cb2b7105e65011735705da9ccee88003a5efa2aeb",
+      "fields": [
+        {
+          "bindings_hex": "01000004",
+          "text": "返回"
+        },
+        {
+          "bindings_hex": "01090006",
+          "text": "返回"
+        }
+      ]
+    },
+    {
+      "gem": "strings.gem",
+      "entry": "ESP\\Strings.xus",
+      "output": "payload-0.2.3/tables/strings/Strings.xus",
+      "version": 258,
+      "stock_table_sha256": "328149359c1a06a32b086e041faaef9d2a04edd444f590a556e8efc640e81301",
+      "fields": [
+        {
+          "copy_field": 0
+        },
+        {
+          "bindings_hex": "",
+          "text": "此配件有可用更新。按“确定”开始更新，完成前请保持连接。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "更新完成。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "配件更新出错。请确认配件已开机，重新连接到 Zune，然后按“确定”。"
+        },
+        {
+          "copy_field": 4
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在更新，请保持连接。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "HDMI 出错。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "已连接配件。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "加入购物车"
+        },
+        {
+          "bindings_hex": "",
+          "text": "加入购物车"
+        },
+        {
+          "bindings_hex": "",
+          "text": "购买"
+        },
+        {
+          "bindings_hex": "",
+          "text": "全部购买"
+        },
+        {
+          "bindings_hex": "",
+          "text": "取消下载"
+        },
+        {
+          "bindings_hex": "",
+          "text": "清空购物车"
+        },
+        {
+          "bindings_hex": "",
+          "text": "下载"
+        },
+        {
+          "bindings_hex": "",
+          "text": "全部下载"
+        },
+        {
+          "bindings_hex": "",
+          "text": "前往收藏"
+        },
+        {
+          "bindings_hex": "",
+          "text": "移出购物车"
+        },
+        {
+          "bindings_hex": "",
+          "text": "重试"
+        },
+        {
+          "bindings_hex": "",
+          "text": "取消"
+        },
+        {
+          "bindings_hex": "",
+          "text": "可兑换 %d 首歌曲"
+        },
+        {
+          "bindings_hex": "",
+          "text": "可兑换 %d 首歌曲"
+        },
+        {
+          "bindings_hex": "",
+          "text": "确定"
+        },
+        {
+          "copy_field": 23
+        },
+        {
+          "bindings_hex": "",
+          "text": "已取消"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在下载…"
+        },
+        {
+          "bindings_hex": "",
+          "text": "等待中…"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在下载 %d%%"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在下载"
+        },
+        {
+          "copy_field": 29
+        },
+        {
+          "bindings_hex": "",
+          "text": "出错"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在获取价格…"
+        },
+        {
+          "bindings_hex": "",
+          "text": "已在购物车中"
+        },
+        {
+          "bindings_hex": "",
+          "text": "已在收藏中"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在获取信息…"
+        },
+        {
+          "bindings_hex": "",
+          "text": "等待中…"
+        },
+        {
+          "copy_field": 36
+        },
+        {
+          "bindings_hex": "",
+          "text": "要取消吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "确定清空购物车吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "剩余歌曲兑换额度不足。请从购物车中移除歌曲，再重新添加。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "积分不足。请登录 Zune 帐户购买更多积分。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在读取帐户余额…"
+        },
+        {
+          "bindings_hex": "",
+          "text": "此帐户已禁用购买功能。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "要从购物车移除吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "%s（未完成）"
+        },
+        {
+          "bindings_hex": "",
+          "text": "暂不可用"
+        },
+        {
+          "bindings_hex": "",
+          "text": "%s（已略过部分歌曲）"
+        },
+        {
+          "bindings_hex": "",
+          "text": "暂不可用"
+        },
+        {
+          "bindings_hex": "",
+          "text": "上午"
+        },
+        {
+          "bindings_hex": "",
+          "text": "下午"
+        },
+        {
+          "bindings_hex": "",
+          "text": "1 张照片"
+        },
+        {
+          "bindings_hex": "",
+          "text": "1 首歌曲"
+        },
+        {
+          "bindings_hex": "",
+          "text": "1 段视频"
+        },
+        {
+          "bindings_hex": "",
+          "text": "%d 集"
+        },
+        {
+          "bindings_hex": "",
+          "text": "%d 张照片"
+        },
+        {
+          "bindings_hex": "",
+          "text": "播放 %s 次"
+        },
+        {
+          "bindings_hex": "",
+          "text": "%d 首歌曲"
+        },
+        {
+          "bindings_hex": "",
+          "text": "%d 段视频"
+        },
+        {
+          "bindings_hex": "",
+          "text": "标记为有可用更新"
+        },
+        {
+          "bindings_hex": "",
+          "text": "1 秒"
+        },
+        {
+          "bindings_hex": "",
+          "text": "%4!d! 秒"
+        },
+        {
+          "bindings_hex": "",
+          "text": "1 分钟"
+        },
+        {
+          "bindings_hex": "",
+          "text": "%3!d! 分钟"
+        },
+        {
+          "bindings_hex": "",
+          "text": "1 天"
+        },
+        {
+          "bindings_hex": "",
+          "text": "1 小时"
+        },
+        {
+          "bindings_hex": "",
+          "text": "1 天 1 小时"
+        },
+        {
+          "bindings_hex": "",
+          "text": "1 小时 1 分钟"
+        },
+        {
+          "bindings_hex": "",
+          "text": "1 天 %2!d! 小时"
+        },
+        {
+          "bindings_hex": "",
+          "text": "1 小时 %3!d! 分钟"
+        },
+        {
+          "bindings_hex": "",
+          "text": "%1!d! 天"
+        },
+        {
+          "bindings_hex": "",
+          "text": "%1!d! 天 1 小时"
+        },
+        {
+          "bindings_hex": "",
+          "text": "%1!d! 天 %2!d! 小时"
+        },
+        {
+          "bindings_hex": "",
+          "text": "%2!d! 小时"
+        },
+        {
+          "bindings_hex": "",
+          "text": "%2!d! 小时 1 分钟"
+        },
+        {
+          "bindings_hex": "",
+          "text": "%2!d! 小时 %3!d! 分钟"
+        },
+        {
+          "bindings_hex": "",
+          "text": "第 %1!d! 集"
+        },
+        {
+          "bindings_hex": "",
+          "text": "请使用 Audible Manager 为这台 Zune 激活此内容。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "请先将 Zune 连到电脑并更新播放器，再同步此项目。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "使用权限出错，无法同步。请在电脑上打开 Zune 软件，查看帐户设置。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "暂时无法同步此项目。下次与电脑同步时应会显示。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "此项目已达到下载次数上限，无法同步。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "网络出错，无法同步此项目。下次与电脑同步时应会显示。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "服务器出错，无法同步此项目。请稍后再试。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "登录出错，无法同步。下次连接电脑时，请检查邮箱和密码。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法同步此项目。请在电脑的 Zune 软件中打开帐户设置，确认帐户信息是最新的。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "你的 Zune 帐户已在多处登录，无法同步此项目。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "你所在的地区不支持 Zune 服务，无法同步此项目。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "未能完成购买，请稍后再试。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "歌曲兑换额度不足，无法下载。请重试。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法下载，请稍后再试。 "
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法下载，请稍后再试。（%08x）"
+        },
+        {
+          "bindings_hex": "",
+          "text": "此优惠已失效。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "此帐户的设置不允许购买。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "此项目已达到下载次数上限。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "找不到此项目，请稍后再试。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "Zune 商店已不再提供此项目。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "使用此 Zune Pass 的播放器或电脑数量已达上限。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "使用此 Zune Pass 的播放器或电脑数量已达上限。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "下载失败，请稍后再试。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "此项目已达到恢复次数上限。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "价格已变更，请重试。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "积分不足以完成购买。请登录 Zune 帐户购买更多积分。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "此帐户已达到每日消费上限，请明天再试。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "暂时无法播放，请稍后再试。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "网络出错，无法下载。请稍后再试。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "在 Zune 商店播放 Smart DJ 混合歌单需要 Zune Pass。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "消息过大，无法发送。播放列表超过 1,000 项时可能会出现此问题。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法连接 Zune 商店，请稍后再试。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法连接 Zune 商店，请稍后再试。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法连接 Zune 商店，请稍后再试。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法连接 Zune 商店，请稍后再试。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法连接 Zune 商店，请稍后再试。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法连接 Zune 商店。请先在电脑上登录 Zune，再重试。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法连接 Zune 商店，请稍后再试。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法连接 Zune 商店，请稍后再试。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "你的 Zune 商店帐户已暂停使用。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法登录，请稍后再试。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法登录 Zune 商店。请先在电脑上登录 Zune，再重试。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "你所在的地区暂不支持 Zune 商店。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法登录。下次连接电脑时，请在 Zune 软件中检查用户名和密码。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "你的 Zune 商店帐户已注销。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "你的 Zune 商店帐户已注销。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "尚未设置 Zune 商店。请连接电脑，在设备设置中启用商店。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "此帐户已在电脑或另一台 Zune 上登录，无法再次登录。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法在线播放此歌曲。你可能已在其他地方在线播放音乐，请稍后再试。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法登录。下次连接电脑时，请在 Zune 软件中检查用户名和密码。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法登录。下次连接电脑时，请在 Zune 软件中检查用户名和密码。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法登录。下次连接电脑时，请在 Zune 软件中检查用户名和密码。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法登录。下次连接电脑时，请在 Zune 软件中检查用户名和密码。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "你的 Zune 商店帐户已暂停使用。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "需要更改你的 Zune 标签。下次连接电脑时，请更新帐户信息。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "服务条款已更新。请在电脑上登录 Zune 软件并连接此播放器，阅读并接受新条款。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "需要账单信息。请访问 zune.net/billing。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "租期已结束。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "将在 %s 后到期"
+        },
+        {
+          "bindings_hex": "",
+          "text": "已过期"
+        },
+        {
+          "bindings_hex": "",
+          "text": "剩余 %s"
+        },
+        {
+          "bindings_hex": "",
+          "text": "来自 %s"
+        },
+        {
+          "bindings_hex": "",
+          "text": "收件箱"
+        },
+        {
+          "bindings_hex": "",
+          "text": "请在电脑的收件箱中查看这条消息的内容。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "第 %d 部分"
+        },
+        {
+          "bindings_hex": "",
+          "text": "专辑"
+        },
+        {
+          "bindings_hex": "",
+          "text": "分集"
+        },
+        {
+          "bindings_hex": "",
+          "text": "论坛消息"
+        },
+        {
+          "bindings_hex": "",
+          "text": "好友请求"
+        },
+        {
+          "bindings_hex": "",
+          "text": "应用"
+        },
+        {
+          "bindings_hex": "",
+          "text": "通知"
+        },
+        {
+          "bindings_hex": "",
+          "text": "照片"
+        },
+        {
+          "bindings_hex": "",
+          "text": "照片"
+        },
+        {
+          "bindings_hex": "",
+          "text": "播放列表"
+        },
+        {
+          "bindings_hex": "",
+          "text": "播客"
+        },
+        {
+          "bindings_hex": "",
+          "text": "歌曲"
+        },
+        {
+          "bindings_hex": "",
+          "text": "歌曲"
+        },
+        {
+          "bindings_hex": "",
+          "text": "文本"
+        },
+        {
+          "bindings_hex": "",
+          "text": "未知"
+        },
+        {
+          "bindings_hex": "",
+          "text": "用户名片"
+        },
+        {
+          "bindings_hex": "",
+          "text": "视频"
+        },
+        {
+          "bindings_hex": "",
+          "text": "加入播放队列"
+        },
+        {
+          "bindings_hex": "",
+          "text": "固定到快速播放"
+        },
+        {
+          "bindings_hex": "",
+          "text": "加入播放队列"
+        },
+        {
+          "bindings_hex": "",
+          "text": "加入收藏"
+        },
+        {
+          "bindings_hex": "",
+          "text": "加入愿望单"
+        },
+        {
+          "bindings_hex": "",
+          "text": "清空播放队列"
+        },
+        {
+          "bindings_hex": "",
+          "text": "标记为已播放"
+        },
+        {
+          "bindings_hex": "",
+          "text": "删除"
+        },
+        {
+          "bindings_hex": "",
+          "text": "开启无线网络"
+        },
+        {
+          "bindings_hex": "",
+          "text": "好友请求"
+        },
+        {
+          "bindings_hex": "",
+          "text": "查看艺人"
+        },
+        {
+          "bindings_hex": "",
+          "text": "查看相关内容"
+        },
+        {
+          "bindings_hex": "",
+          "text": "播放"
+        },
+        {
+          "bindings_hex": "",
+          "text": "从头播放"
+        },
+        {
+          "bindings_hex": "",
+          "text": "继续播放"
+        },
+        {
+          "bindings_hex": "",
+          "text": "全部播放"
+        },
+        {
+          "bindings_hex": "",
+          "text": "全部随机播放"
+        },
+        {
+          "bindings_hex": "",
+          "text": "播放新内容"
+        },
+        {
+          "bindings_hex": "",
+          "text": "全部播放"
+        },
+        {
+          "bindings_hex": "",
+          "text": "播放"
+        },
+        {
+          "bindings_hex": "",
+          "text": "继续播放"
+        },
+        {
+          "bindings_hex": "",
+          "text": "播放"
+        },
+        {
+          "bindings_hex": "",
+          "text": "显示"
+        },
+        {
+          "bindings_hex": "",
+          "text": "播放幻灯片"
+        },
+        {
+          "bindings_hex": "",
+          "text": "播放 Smart DJ 歌单"
+        },
+        {
+          "bindings_hex": "",
+          "text": "播放"
+        },
+        {
+          "bindings_hex": "",
+          "text": "从头播放"
+        },
+        {
+          "bindings_hex": "",
+          "text": "继续播放"
+        },
+        {
+          "bindings_hex": "",
+          "text": "全部播放"
+        },
+        {
+          "bindings_hex": "",
+          "text": "播放新内容"
+        },
+        {
+          "bindings_hex": "",
+          "text": "全部播放"
+        },
+        {
+          "bindings_hex": "",
+          "text": "移出播放队列"
+        },
+        {
+          "bindings_hex": "",
+          "text": "从快速播放中移除"
+        },
+        {
+          "bindings_hex": "",
+          "text": "发送"
+        },
+        {
+          "bindings_hex": "",
+          "text": "订阅"
+        },
+        {
+          "bindings_hex": "",
+          "text": "标记为未播放"
+        },
+        {
+          "bindings_hex": "",
+          "text": "取消订阅"
+        },
+        {
+          "bindings_hex": "",
+          "text": "查看"
+        },
+        {
+          "bindings_hex": "",
+          "text": "简介"
+        },
+        {
+          "bindings_hex": "",
+          "text": "专辑"
+        },
+        {
+          "bindings_hex": "",
+          "text": "动态"
+        },
+        {
+          "bindings_hex": "",
+          "text": "照片"
+        },
+        {
+          "bindings_hex": "",
+          "text": "相关"
+        },
+        {
+          "bindings_hex": "",
+          "text": "歌曲"
+        },
+        {
+          "bindings_hex": "",
+          "text": "视频"
+        },
+        {
+          "bindings_hex": "",
+          "text": "应用"
+        },
+        {
+          "bindings_hex": "",
+          "text": "专辑"
+        },
+        {
+          "bindings_hex": "",
+          "text": "艺人"
+        },
+        {
+          "bindings_hex": "",
+          "text": "频道"
+        },
+        {
+          "bindings_hex": "",
+          "text": "流派"
+        },
+        {
+          "bindings_hex": "",
+          "text": "播放列表"
+        },
+        {
+          "bindings_hex": "",
+          "text": "歌曲"
+        },
+        {
+          "bindings_hex": "",
+          "text": "按日期"
+        },
+        {
+          "bindings_hex": "",
+          "text": "按文件夹"
+        },
+        {
+          "bindings_hex": "",
+          "text": "全部"
+        },
+        {
+          "bindings_hex": "",
+          "text": "音频"
+        },
+        {
+          "bindings_hex": "",
+          "text": "视频"
+        },
+        {
+          "bindings_hex": "",
+          "text": "全部"
+        },
+        {
+          "bindings_hex": "",
+          "text": "暂不可用"
+        },
+        {
+          "bindings_hex": "",
+          "text": "播放"
+        },
+        {
+          "bindings_hex": "",
+          "text": "全部播放"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在更新内容…"
+        },
+        {
+          "bindings_hex": "",
+          "text": "最新发行"
+        },
+        {
+          "bindings_hex": "",
+          "text": "专辑"
+        },
+        {
+          "bindings_hex": "",
+          "text": "艺人"
+        },
+        {
+          "bindings_hex": "",
+          "text": "歌曲"
+        },
+        {
+          "bindings_hex": "",
+          "text": "全部"
+        },
+        {
+          "bindings_hex": "",
+          "text": "蓝调"
+        },
+        {
+          "bindings_hex": "",
+          "text": "基督教音乐"
+        },
+        {
+          "bindings_hex": "",
+          "text": "古典"
+        },
+        {
+          "bindings_hex": "",
+          "text": "乡村"
+        },
+        {
+          "bindings_hex": "",
+          "text": "电子"
+        },
+        {
+          "bindings_hex": "",
+          "text": "嘻哈"
+        },
+        {
+          "bindings_hex": "",
+          "text": "爵士"
+        },
+        {
+          "bindings_hex": "",
+          "text": "儿童"
+        },
+        {
+          "bindings_hex": "",
+          "text": "拉丁"
+        },
+        {
+          "bindings_hex": "",
+          "text": "流行"
+        },
+        {
+          "bindings_hex": "",
+          "text": "节奏布鲁斯"
+        },
+        {
+          "bindings_hex": "",
+          "text": "雷鬼"
+        },
+        {
+          "bindings_hex": "",
+          "text": "摇滚"
+        },
+        {
+          "bindings_hex": "",
+          "text": "原声带"
+        },
+        {
+          "bindings_hex": "",
+          "text": "朗诵与演说"
+        },
+        {
+          "bindings_hex": "",
+          "text": "世界音乐"
+        },
+        {
+          "bindings_hex": "",
+          "text": "此歌曲仅随整张专辑提供。请下载或购买整张专辑。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "未连接"
+        },
+        {
+          "bindings_hex": "",
+          "text": "已在收藏中"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在加载…"
+        },
+        {
+          "bindings_hex": "",
+          "text": "暂无内容"
+        },
+        {
+          "bindings_hex": "",
+          "text": "Zune 商店暂不提供此项目。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "未连接"
+        },
+        {
+          "copy_field": 247
+        },
+        {
+          "bindings_hex": "",
+          "text": "免费"
+        },
+        {
+          "bindings_hex": "",
+          "text": "试听 30 秒"
+        },
+        {
+          "bindings_hex": "",
+          "text": "结果： "
+        },
+        {
+          "bindings_hex": "",
+          "text": "搜索：%s"
+        },
+        {
+          "bindings_hex": "",
+          "text": "有可用更新"
+        },
+        {
+          "bindings_hex": "",
+          "text": "搜索"
+        },
+        {
+          "bindings_hex": "",
+          "text": "搜索商店"
+        },
+        {
+          "bindings_hex": "",
+          "text": "购物车"
+        },
+        {
+          "bindings_hex": "",
+          "text": "应用"
+        },
+        {
+          "bindings_hex": "",
+          "text": "音乐"
+        },
+        {
+          "bindings_hex": "",
+          "text": "搜索"
+        },
+        {
+          "bindings_hex": "",
+          "text": "全部"
+        },
+        {
+          "bindings_hex": "",
+          "text": "详情"
+        },
+        {
+          "bindings_hex": "",
+          "text": "最新"
+        },
+        {
+          "bindings_hex": "",
+          "text": "截图"
+        },
+        {
+          "bindings_hex": "",
+          "text": "更新"
+        },
+        {
+          "bindings_hex": "",
+          "text": "最新发行"
+        },
+        {
+          "bindings_hex": "",
+          "text": "精选"
+        },
+        {
+          "bindings_hex": "",
+          "text": "热门专辑"
+        },
+        {
+          "bindings_hex": "",
+          "text": "热门歌曲"
+        },
+        {
+          "bindings_hex": "",
+          "text": "已加入购物车。现在查看吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "购物车已满。请先下载或移除已有项目。现在查看购物车吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "购物车已满。请先下载或移除已有项目，再添加新内容。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "未能加入购物车，请稍后再试。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "已加入购物车。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "请在电脑上将此播放器与你的 Zune 标签关联，以启用购物车。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "下次与电脑同步时即可完成购买。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "歌曲已加入播放队列。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "歌曲已加入播放队列。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "已加入收藏。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "已固定到快速播放。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "已加入愿望单。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "下次将 Zune 连到电脑并登录商店时，购买此项目吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在删除…"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法播放此项目的声音。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "Zune 软件中的帐户设置限制了成人内容的访问。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "已连续三次输入错误。请核对 PIN 码后重试。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "已连续三次输入错误。请核对 PIN 码后重试。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "Zune Pass 信息需要刷新。请在电脑上登录并同步播放器。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "Zune Pass 信息需要刷新。请在电脑上登录并同步播放器。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "Zune Pass 信息需要刷新。现在刷新吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法刷新 Zune Pass 信息。请在电脑上登录并同步播放器。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "此项目已过期。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "使用权限出错，无法在这台电视上播放。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "此应用需要较新的播放器固件。请连接电脑，在 Zune 软件的设备设置中更新播放器。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "此项目已丢失或无法播放。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "此项目已丢失或无法播放。（%08x）"
+        },
+        {
+          "bindings_hex": "",
+          "text": "暂时无法在线播放，请稍后再试。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "暂时无法在线播放，请稍后再试。（%08x）"
+        },
+        {
+          "bindings_hex": "",
+          "text": "Zune 正在从严重错误中恢复，必须抹掉全部内容。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "要继续，请连接电脑并用 Zune 软件同步。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "这台 Zune 上没有%s。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "未检测到电视。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "播放器空间不足，无法添加。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "暂无可用更新。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "暂无可用更新。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "不支持此媒体类型，仅显示消息文字。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法播放此项目的视频。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "请将 Zune 平放在桌面等平整表面上，再按“确定”。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "已完成。按“确定”继续。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在校准，请勿移动播放器。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "请先在电脑上访问 www.zune.net/setup，更新 Zune 软件。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "暂不可用"
+        },
+        {
+          "bindings_hex": "",
+          "text": "电量低"
+        },
+        {
+          "bindings_hex": "",
+          "text": "每次解锁屏幕都要输入 PIN 码。如果忘记 PIN 码，只能重置 Zune，这会抹掉全部内容。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "PIN 码已更改"
+        },
+        {
+          "bindings_hex": "",
+          "text": "PIN 码已停用。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "Smart DJ 正在选歌…"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在更新。确定要停止吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "可能需要一两分钟。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "要清空播放队列中的所有歌曲吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "可能需要一两分钟。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "确定删除此项目吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无线网络已关闭。现在开启吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "要在线查看隐私声明吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "确定重置背景图片吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "%s 想给你发送音乐。接受吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "%s 想给你发送照片。接受吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "%s 想给你发送播客。接受吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "%s 想给你发送视频。接受吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "所有%s均已更新。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "已从快速播放中移除。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "已创建“%s”。其中的商店内容将加入购物车，供你下载。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "未能保存播放列表，请确认购物车还有空位。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "已创建“%s”。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在保存…"
+        },
+        {
+          "bindings_hex": "",
+          "text": "背景已更改。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法生成 Smart DJ 歌单。可以试试同步更多音乐。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法生成 Smart DJ 歌单。可能是网络出错，或该艺人暂不支持 Smart DJ。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "暂时无法播放这首歌。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "要无线同步，请先拔下 Zune 的同步线。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "连接已断开。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "连接已断开。要尝试其他网络吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "要连接无线网络，请先拔下 Zune 的同步线。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "现在连接吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "连接已断开"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法连接。请检查密码或尝试其他网络。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法连接网络。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法连接电脑，请确认你已登录电脑。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "要断开此网络吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "输入网络密码"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法连接此网络。要尝试其他网络吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法开启无线网络。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法连接。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法开启无线网络。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法开启无线网络。（%08x）"
+        },
+        {
+          "bindings_hex": "",
+          "text": "密码无效，请检查后再试。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "要设置无线同步，请在电脑上打开 Zune 软件的设备设置。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "要开启无线网络吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无法连接此网络。要尝试其他网络吗？"
+        },
+        {
+          "bindings_hex": "",
+          "text": "未知专辑"
+        },
+        {
+          "bindings_hex": "",
+          "text": "未知艺人"
+        },
+        {
+          "bindings_hex": "",
+          "text": "日期未知"
+        },
+        {
+          "bindings_hex": "",
+          "text": "暂无简介。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "未知流派"
+        },
+        {
+          "bindings_hex": "",
+          "text": "电影"
+        },
+        {
+          "bindings_hex": "",
+          "text": "音乐"
+        },
+        {
+          "bindings_hex": "",
+          "text": "其他"
+        },
+        {
+          "bindings_hex": "",
+          "text": "播客"
+        },
+        {
+          "bindings_hex": "",
+          "text": "电视"
+        },
+        {
+          "bindings_hex": "",
+          "text": "取消"
+        },
+        {
+          "bindings_hex": "",
+          "text": "确认 PIN 码"
+        },
+        {
+          "bindings_hex": "",
+          "text": "确认新 PIN 码"
+        },
+        {
+          "bindings_hex": "",
+          "text": "输入 PIN 码"
+        },
+        {
+          "bindings_hex": "",
+          "text": "输入旧 PIN 码"
+        },
+        {
+          "bindings_hex": "",
+          "text": "PIN 码错误"
+        },
+        {
+          "bindings_hex": "",
+          "text": "确定"
+        },
+        {
+          "bindings_hex": "",
+          "text": "设置 PIN 码"
+        },
+        {
+          "bindings_hex": "",
+          "text": "设置新 PIN 码"
+        },
+        {
+          "copy_field": 377
+        },
+        {
+          "bindings_hex": "",
+          "text": "已保存的播放列表 %d"
+        },
+        {
+          "bindings_hex": "",
+          "text": "输入播放列表名称"
+        },
+        {
+          "bindings_hex": "",
+          "text": "第 %1!d! 项，共 %2!d! 项"
+        },
+        {
+          "copy_field": 381
+        },
+        {
+          "bindings_hex": "",
+          "text": "动态"
+        },
+        {
+          "bindings_hex": "",
+          "text": "资讯"
+        },
+        {
+          "bindings_hex": "",
+          "text": "体育"
+        },
+        {
+          "bindings_hex": "",
+          "text": "谈话"
+        },
+        {
+          "bindings_hex": "",
+          "text": "摇滚"
+        },
+        {
+          "bindings_hex": "",
+          "text": "经典摇滚"
+        },
+        {
+          "bindings_hex": "",
+          "text": "成人金曲"
+        },
+        {
+          "bindings_hex": "",
+          "text": "轻摇滚"
+        },
+        {
+          "bindings_hex": "",
+          "text": "热门 40 首"
+        },
+        {
+          "bindings_hex": "",
+          "text": "乡村"
+        },
+        {
+          "bindings_hex": "",
+          "text": "怀旧金曲"
+        },
+        {
+          "bindings_hex": "",
+          "text": "轻音乐"
+        },
+        {
+          "bindings_hex": "",
+          "text": "怀旧"
+        },
+        {
+          "bindings_hex": "",
+          "text": "爵士"
+        },
+        {
+          "bindings_hex": "",
+          "text": "古典"
+        },
+        {
+          "bindings_hex": "",
+          "text": "节奏布鲁斯"
+        },
+        {
+          "bindings_hex": "",
+          "text": "轻柔节奏布鲁斯"
+        },
+        {
+          "bindings_hex": "",
+          "text": "语言"
+        },
+        {
+          "bindings_hex": "",
+          "text": "宗教音乐"
+        },
+        {
+          "bindings_hex": "",
+          "text": "宗教谈话"
+        },
+        {
+          "bindings_hex": "",
+          "text": "人物节目"
+        },
+        {
+          "bindings_hex": "",
+          "text": "公共广播"
+        },
+        {
+          "bindings_hex": "",
+          "text": "校园广播"
+        },
+        {
+          "copy_field": 405
+        },
+        {
+          "copy_field": 406
+        },
+        {
+          "copy_field": 407
+        },
+        {
+          "copy_field": 408
+        },
+        {
+          "copy_field": 409
+        },
+        {
+          "bindings_hex": "",
+          "text": "天气"
+        },
+        {
+          "bindings_hex": "",
+          "text": "应急广播测试"
+        },
+        {
+          "bindings_hex": "",
+          "text": "应急广播"
+        },
+        {
+          "bindings_hex": "",
+          "text": "固定到快速播放"
+        },
+        {
+          "bindings_hex": "",
+          "text": "移除预设电台"
+        },
+        {
+          "copy_field": 415
+        },
+        {
+          "copy_field": 416
+        },
+        {
+          "bindings_hex": "",
+          "text": "频道"
+        },
+        {
+          "bindings_hex": "",
+          "text": "停止更新"
+        },
+        {
+          "bindings_hex": "",
+          "text": "更新%s"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在停止更新…"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在更新…"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在接收第 %d 项，共 %d 项"
+        },
+        {
+          "bindings_hex": "",
+          "text": "Zune 名片"
+        },
+        {
+          "bindings_hex": "",
+          "text": "第 %2!d! 季"
+        },
+        {
+          "bindings_hex": "",
+          "text": "第 %2!d! 季，第 %1!d! 集"
+        },
+        {
+          "bindings_hex": "",
+          "text": "发送"
+        },
+        {
+          "bindings_hex": "",
+          "text": "输入留言"
+        },
+        {
+          "bindings_hex": "",
+          "text": "收件人： "
+        },
+        {
+          "bindings_hex": "",
+          "text": "完成"
+        },
+        {
+          "bindings_hex": "",
+          "text": "输入邮箱或 Zune 标签。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "消息已发送。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "下次连接时将发送这条消息。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "要发送，请在电脑上的 Zune 软件中将此播放器与你的帐户关联。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "可用 %s"
+        },
+        {
+          "bindings_hex": "",
+          "text": "已用 %s"
+        },
+        {
+          "bindings_hex": "",
+          "text": "版本 %1!d!.%2!d!（%3!d!%4!s!）%5!s!%6!s!\r\n引导程序 %7!d!.%8!d!（%9!d!%10!s!）"
+        },
+        {
+          "bindings_hex": "",
+          "text": "法律声明"
+        },
+        {
+          "bindings_hex": "",
+          "text": "隐私"
+        },
+        {
+          "bindings_hex": "",
+          "text": "存储空间"
+        },
+        {
+          "bindings_hex": "",
+          "text": "关于"
+        },
+        {
+          "copy_field": 441
+        },
+        {
+          "bindings_hex": "",
+          "text": "原声"
+        },
+        {
+          "bindings_hex": "",
+          "text": "古典"
+        },
+        {
+          "bindings_hex": "",
+          "text": "调试"
+        },
+        {
+          "bindings_hex": "",
+          "text": "电子"
+        },
+        {
+          "bindings_hex": "",
+          "text": "嘻哈"
+        },
+        {
+          "bindings_hex": "",
+          "text": "爵士"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无"
+        },
+        {
+          "bindings_hex": "",
+          "text": "流行"
+        },
+        {
+          "bindings_hex": "",
+          "text": "摇滚"
+        },
+        {
+          "bindings_hex": "",
+          "text": "均衡器"
+        },
+        {
+          "bindings_hex": "",
+          "text": "关"
+        },
+        {
+          "bindings_hex": "",
+          "text": "开"
+        },
+        {
+          "bindings_hex": "",
+          "text": "循环播放"
+        },
+        {
+          "bindings_hex": "",
+          "text": "关"
+        },
+        {
+          "bindings_hex": "",
+          "text": "开"
+        },
+        {
+          "bindings_hex": "",
+          "text": "随机播放"
+        },
+        {
+          "bindings_hex": "",
+          "text": "仅专辑"
+        },
+        {
+          "bindings_hex": "",
+          "text": "歌曲和专辑"
+        },
+        {
+          "bindings_hex": "",
+          "text": "艺人"
+        },
+        {
+          "bindings_hex": "",
+          "text": "音乐"
+        },
+        {
+          "bindings_hex": "",
+          "text": "已停用"
+        },
+        {
+          "bindings_hex": "",
+          "text": "已启用"
+        },
+        {
+          "bindings_hex": "",
+          "text": "名称"
+        },
+        {
+          "bindings_hex": "",
+          "text": "从新到旧"
+        },
+        {
+          "bindings_hex": "",
+          "text": "网址"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在清除浏览记录…"
+        },
+        {
+          "bindings_hex": "",
+          "text": "已停用"
+        },
+        {
+          "bindings_hex": "",
+          "text": "已启用"
+        },
+        {
+          "bindings_hex": "",
+          "text": "浏览器"
+        },
+        {
+          "bindings_hex": "",
+          "text": "手机版"
+        },
+        {
+          "copy_field": 472
+        },
+        {
+          "bindings_hex": "",
+          "text": "桌面版"
+        },
+        {
+          "bindings_hex": "",
+          "text": "频道"
+        },
+        {
+          "bindings_hex": "",
+          "text": "云服务调试"
+        },
+        {
+          "bindings_hex": "",
+          "text": "调试"
+        },
+        {
+          "bindings_hex": "",
+          "text": "5 分钟"
+        },
+        {
+          "bindings_hex": "",
+          "text": "4 分钟"
+        },
+        {
+          "bindings_hex": "",
+          "text": "1 分钟"
+        },
+        {
+          "bindings_hex": "",
+          "text": "3 分钟"
+        },
+        {
+          "bindings_hex": "",
+          "text": "超时"
+        },
+        {
+          "bindings_hex": "",
+          "text": "2 分钟"
+        },
+        {
+          "bindings_hex": "",
+          "text": "高"
+        },
+        {
+          "bindings_hex": "",
+          "text": "低"
+        },
+        {
+          "bindings_hex": "",
+          "text": "中"
+        },
+        {
+          "bindings_hex": "",
+          "text": "亮度"
+        },
+        {
+          "bindings_hex": "",
+          "text": "接电时"
+        },
+        {
+          "bindings_hex": "",
+          "text": "从不"
+        },
+        {
+          "bindings_hex": "",
+          "text": "总是"
+        },
+        {
+          "bindings_hex": "",
+          "text": "屏幕保护"
+        },
+        {
+          "bindings_hex": "",
+          "text": "显示"
+        },
+        {
+          "bindings_hex": "",
+          "text": "复合视频"
+        },
+        {
+          "copy_field": 493
+        },
+        {
+          "copy_field": 494
+        },
+        {
+          "bindings_hex": "",
+          "text": "HDMI 自动"
+        },
+        {
+          "bindings_hex": "",
+          "text": "关"
+        },
+        {
+          "bindings_hex": "",
+          "text": "电视输出"
+        },
+        {
+          "bindings_hex": "",
+          "text": "电视输出"
+        },
+        {
+          "bindings_hex": "",
+          "text": "重置加速度计"
+        },
+        {
+          "bindings_hex": "",
+          "text": "应用"
+        },
+        {
+          "copy_field": 501
+        },
+        {
+          "copy_field": 502
+        },
+        {
+          "bindings_hex": "",
+          "text": "简体中文"
+        },
+        {
+          "bindings_hex": "",
+          "text": "语言"
+        },
+        {
+          "bindings_hex": "",
+          "text": "标准"
+        },
+        {
+          "bindings_hex": "",
+          "text": "国际设置"
+        },
+        {
+          "bindings_hex": "",
+          "text": "关"
+        },
+        {
+          "bindings_hex": "",
+          "text": "开"
+        },
+        {
+          "bindings_hex": "",
+          "text": "自动大写"
+        },
+        {
+          "bindings_hex": "",
+          "text": "关"
+        },
+        {
+          "bindings_hex": "",
+          "text": "开"
+        },
+        {
+          "bindings_hex": "",
+          "text": "自动纠错"
+        },
+        {
+          "bindings_hex": "",
+          "text": "键盘"
+        },
+        {
+          "bindings_hex": "",
+          "text": "许可证"
+        },
+        {
+          "bindings_hex": "",
+          "text": "%s：%s"
+        },
+        {
+          "bindings_hex": "",
+          "text": "格式"
+        },
+        {
+          "copy_field": 517
+        },
+        {
+          "bindings_hex": "",
+          "text": "收藏夹排序"
+        },
+        {
+          "bindings_hex": "",
+          "text": "清除历史记录"
+        },
+        {
+          "bindings_hex": "",
+          "text": "脚本"
+        },
+        {
+          "bindings_hex": "",
+          "text": "内容"
+        },
+        {
+          "bindings_hex": "",
+          "text": "关"
+        },
+        {
+          "bindings_hex": "",
+          "text": "开"
+        },
+        {
+          "bindings_hex": "",
+          "text": "声音"
+        },
+        {
+          "bindings_hex": "",
+          "text": "关"
+        },
+        {
+          "bindings_hex": "",
+          "text": "开"
+        },
+        {
+          "bindings_hex": "",
+          "text": "倾斜感应"
+        },
+        {
+          "bindings_hex": "",
+          "text": "显示时钟"
+        },
+        {
+          "bindings_hex": "",
+          "text": "关"
+        },
+        {
+          "bindings_hex": "",
+          "text": "开"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无线网络"
+        },
+        {
+          "bindings_hex": "",
+          "text": "设为背景"
+        },
+        {
+          "bindings_hex": "",
+          "text": "关"
+        },
+        {
+          "bindings_hex": "",
+          "text": "开"
+        },
+        {
+          "bindings_hex": "",
+          "text": "随机播放"
+        },
+        {
+          "bindings_hex": "",
+          "text": "照片"
+        },
+        {
+          "bindings_hex": "",
+          "text": "15 秒"
+        },
+        {
+          "bindings_hex": "",
+          "text": "5 秒"
+        },
+        {
+          "bindings_hex": "",
+          "text": "7 秒"
+        },
+        {
+          "bindings_hex": "",
+          "text": "10 秒"
+        },
+        {
+          "bindings_hex": "",
+          "text": "30 秒"
+        },
+        {
+          "bindings_hex": "",
+          "text": "3 秒"
+        },
+        {
+          "bindings_hex": "",
+          "text": "过渡效果"
+        },
+        {
+          "bindings_hex": "",
+          "text": "更改 PIN 码"
+        },
+        {
+          "bindings_hex": "",
+          "text": "停用 PIN 码"
+        },
+        {
+          "bindings_hex": "",
+          "text": "启用 PIN 码"
+        },
+        {
+          "bindings_hex": "",
+          "text": "关"
+        },
+        {
+          "bindings_hex": "",
+          "text": "开"
+        },
+        {
+          "bindings_hex": "",
+          "text_from": [
+            "Strings.xus",
+            549
+          ]
+        },
+        {
+          "bindings_hex": "",
+          "text": "欧洲"
+        },
+        {
+          "bindings_hex": "",
+          "text": "日本"
+        },
+        {
+          "bindings_hex": "",
+          "text": "地区"
+        },
+        {
+          "bindings_hex": "",
+          "text": "北美"
+        },
+        {
+          "bindings_hex": "",
+          "text": "预设电台"
+        },
+        {
+          "bindings_hex": "",
+          "text": "搜台"
+        },
+        {
+          "bindings_hex": "",
+          "text": "搜台模式"
+        },
+        {
+          "bindings_hex": "",
+          "text": "收音机"
+        },
+        {
+          "bindings_hex": "",
+          "text": "设置"
+        },
+        {
+          "bindings_hex": "",
+          "text": "重置图片"
+        },
+        {
+          "bindings_hex": "",
+          "text": "屏幕锁定"
+        },
+        {
+          "bindings_hex": "",
+          "text": "12 小时制"
+        },
+        {
+          "bindings_hex": "",
+          "text": "24 小时制"
+        },
+        {
+          "bindings_hex": "",
+          "text": "设置时间"
+        },
+        {
+          "bindings_hex": "",
+          "text": "时钟"
+        },
+        {
+          "bindings_hex": "",
+          "text": "Zune 名片"
+        },
+        {
+          "bindings_hex": "",
+          "text": "网络信息"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无线网络连接"
+        },
+        {
+          "bindings_hex": "",
+          "text": "同步"
+        },
+        {
+          "bindings_hex": "",
+          "text": "与电脑同步"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无线网络"
+        },
+        {
+          "bindings_hex": "",
+          "text": "好友"
+        },
+        {
+          "bindings_hex": "",
+          "text": "收件箱"
+        },
+        {
+          "bindings_hex": "",
+          "text": "我"
+        },
+        {
+          "bindings_hex": "",
+          "text": "有声书"
+        },
+        {
+          "bindings_hex": "",
+          "text": "浏览器"
+        },
+        {
+          "bindings_hex": "",
+          "text": "更多"
+        },
+        {
+          "bindings_hex": "",
+          "text": "应用"
+        },
+        {
+          "bindings_hex": "",
+          "text": "商店"
+        },
+        {
+          "bindings_hex": "",
+          "text": "音乐"
+        },
+        {
+          "bindings_hex": "",
+          "text": "照片"
+        },
+        {
+          "bindings_hex": "",
+          "text": "播客"
+        },
+        {
+          "bindings_hex": "",
+          "text": "收音机"
+        },
+        {
+          "bindings_hex": "",
+          "text": "设置"
+        },
+        {
+          "bindings_hex": "",
+          "text": "社区"
+        },
+        {
+          "bindings_hex": "",
+          "text": "视频"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在加载…"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在打开…"
+        },
+        {
+          "copy_field": 588
+        },
+        {
+          "copy_field": 589
+        },
+        {
+          "copy_field": 590
+        },
+        {
+          "copy_field": 591
+        },
+        {
+          "bindings_hex": "",
+          "text": "取消"
+        },
+        {
+          "bindings_hex": "",
+          "text": "确定"
+        },
+        {
+          "bindings_hex": "",
+          "text": "已取消"
+        },
+        {
+          "bindings_hex": "",
+          "text": "已连接"
+        },
+        {
+          "bindings_hex": "",
+          "text": "完成"
+        },
+        {
+          "bindings_hex": "",
+          "text": "失败"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在抹掉…"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在初始化…"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在连接…"
+        },
+        {
+          "bindings_hex": "",
+          "text": "未连接。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "没有需要同步的项目。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在同步第 %d 项，共 %d 项（%d%%）%c%s"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在同步…"
+        },
+        {
+          "bindings_hex": "",
+          "text": "同步完成"
+        },
+        {
+          "copy_field": 606
+        },
+        {
+          "bindings_hex": "",
+          "text": "收藏夹"
+        },
+        {
+          "bindings_hex": "",
+          "text": "最近"
+        },
+        {
+          "bindings_hex": "",
+          "text": "热门艺人"
+        },
+        {
+          "bindings_hex": "",
+          "text": "MAC 地址：%s\r\n网络名称：%s\r\n安全类型：%s"
+        },
+        {
+          "bindings_hex": "",
+          "text": "已为 %s 启用 Zune 商店。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "MAC 地址：%s\r\n\r\n要开启无线同步，请在电脑上打开 Zune 软件的设备设置。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无"
+        },
+        {
+          "copy_field": 614
+        },
+        {
+          "copy_field": 615
+        },
+        {
+          "copy_field": 616
+        },
+        {
+          "copy_field": 617
+        },
+        {
+          "copy_field": 618
+        },
+        {
+          "bindings_hex": "",
+          "text": "已连接"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在连接…"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在开启无线网络…"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在扫描…"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在扫描…"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在连接网络…"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在连接电脑…"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在查找网络…"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在准备同步…"
+        },
+        {
+          "bindings_hex": "",
+          "text": "立即连接"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在扫描…"
+        },
+        {
+          "bindings_hex": "",
+          "text": "未找到网络。"
+        },
+        {
+          "bindings_hex": "",
+          "text": "已连接"
+        },
+        {
+          "bindings_hex": "",
+          "text": "开放网络"
+        },
+        {
+          "bindings_hex": "",
+          "text": "已知网络"
+        },
+        {
+          "bindings_hex": "",
+          "text": "已知网络"
+        },
+        {
+          "bindings_hex": "",
+          "text": "加密网络"
+        },
+        {
+          "bindings_hex": "",
+          "text": "无线网络连接"
+        },
+        {
+          "bindings_hex": "",
+          "text": "SET DATE"
+        },
+        {
+          "bindings_hex": "",
+          "text": "mods"
+        },
+        {
+          "bindings_hex": "",
+          "text": "installed"
+        },
+        {
+          "bindings_hex": "",
+          "text": "archived"
+        },
+        {
+          "bindings_hex": "",
+          "text": "system"
+        }
+      ]
+    },
+    {
+      "gem": "xnascenes.gem",
+      "entry": "ESP\\XnaConnectToComputer.xus",
+      "output": "payload-0.2.2/tables/xnascenes/XnaConnectToComputer.xus",
+      "version": 257,
+      "stock_table_sha256": "081f3f9fbc3066d4831f697b1a626b358377a5caad4bd7007669bddf7b05dad4",
+      "fields": [
+        {
+          "bindings_hex": "01090003",
+          "text": "已连接…"
+        }
+      ]
+    },
+    {
+      "gem": "xnastrings.gem",
+      "entry": "ESP\\XnaStrings.xus",
+      "output": "payload-0.2.2/tables/xnastrings/XnaStrings.xus",
+      "version": 258,
+      "stock_table_sha256": "3e4a3bea32fbe1be83a2de7209cf61a7ae3fa6a0aeac07017228a0e851653941",
+      "fields": [
+        {
+          "copy_field": 0
+        },
+        {
+          "bindings_hex": "",
+          "text": "已连接"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在连接"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在等待电脑…"
+        },
+        {
+          "bindings_hex": "",
+          "text": "连接失败"
+        },
+        {
+          "bindings_hex": "",
+          "text": "接受连接超时"
+        },
+        {
+          "bindings_hex": "",
+          "text": "部署完成"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在部署…\r\n%s"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在设置缩略图"
+        },
+        {
+          "bindings_hex": "",
+          "text": "退出"
+        },
+        {
+          "bindings_hex": "",
+          "text": "内部错误 %X"
+        },
+        {
+          "bindings_hex": "",
+          "text": "正在启动…"
+        },
+        {
+          "bindings_hex": "",
+          "text": "取消"
+        },
+        {
+          "bindings_hex": "",
+          "text": "否"
+        },
+        {
+          "bindings_hex": "",
+          "text": "确定"
+        },
+        {
+          "bindings_hex": "",
+          "text": "停止"
+        },
+        {
+          "bindings_hex": "",
+          "text": "是"
+        },
+        {
+          "bindings_hex": "",
+          "text": "电量低"
+        },
+        {
+          "copy_field": 18
+        },
+        {
+          "bindings_hex": "",
+          "text": "游戏出错，已停止"
+        },
+        {
+          "bindings_hex": "",
+          "text": "出错，无法与电脑通信"
+        },
+        {
+          "bindings_hex": "",
+          "text": "等待连接超时"
+        },
+        {
+          "copy_field": 22
+        },
+        {
+          "bindings_hex": "",
+          "text": "版本 %1!d!.%2!d!（%3!d!）"
+        }
+      ]
+    }
+  ]
+}

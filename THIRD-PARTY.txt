@@ -1,0 +1,11 @@
+Project Lyra is licensed under MIT; its original notice is preserved in
+Project-Lyra-LICENSE.txt. The five compatibility labels reflect its 1.4.0 platform
+additions. Resource-format documentation and the mod runtime are credited to
+Project Lyra and the Zune reverse-engineering community.
+
+The project license covers our contributed code/text only. It does not
+purport to license Microsoft's firmware or third-party components. Owners supply
+their own resource inputs. No original resource binaries are in this source ZIP.
+
+Project Lyra: https://github.com/project-lyra-zune/project-lyra
+License: https://github.com/project-lyra-zune/project-lyra/blob/main/LICENSE

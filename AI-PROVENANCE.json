@@ -1,0 +1,133 @@
+{
+  "scope": "Contribution credits and supporting metadata for this release.",
+  "codex": {
+    "assistant_name": "Astra",
+    "provider": "OpenAI",
+    "tool": "Codex",
+    "display_name": "GPT-6",
+    "model_ids": [
+      "gpt-6-astra"
+    ],
+    "basis": "Local project turn metadata includes the credited model identifier",
+    "role": "Primary implementation, localization assembly, installer, verification tooling and documentation"
+  },
+  "claude": {
+    "provider": "Anthropic",
+    "tool": "Claude Code",
+    "model_ids": [
+      "claude-opus-5-5"
+    ],
+    "display_name": "Claude Opus 5.5",
+    "basis": "Successful saved review summaries; models captured from Claude Code result.modelUsage",
+    "completed_review_records": 12,
+    "reviews": [
+      {
+        "record": "pilot-import/claude-review.json",
+        "success": true,
+        "model_ids": [
+          "claude-opus-5-5"
+        ],
+        "private_record_sha256": "b59be2dd2493ecdf469067c924a4980316568724c359fc279a8a7ba5c2d094fa"
+      },
+      {
+        "record": "pilot-import/claude-followup.json",
+        "success": true,
+        "model_ids": [
+          "claude-opus-5-5"
+        ],
+        "private_record_sha256": "12bfef5c36d8936ce43bd09826f7bdc6832a9547bb58c0c983ea13cf1e3208e5"
+      },
+      {
+        "record": "lyra-zh-review/claude-review.json",
+        "success": true,
+        "model_ids": [
+          "claude-opus-5-5"
+        ],
+        "private_record_sha256": "ed9e575e7fe86d303158c60d676c573b2c37f847ef08fcf1c59815f7f98ee17f"
+      },
+      {
+        "record": "lyra-zh-review/claude-final-review.json",
+        "success": true,
+        "model_ids": [
+          "claude-opus-5-5"
+        ],
+        "private_record_sha256": "8acbb6f7fcf157a3ae2f07dc549d7f83ca6fbf15ecec434381be042e75eaee6e"
+      },
+      {
+        "record": "zune-client-import/claude-review.json",
+        "success": true,
+        "model_ids": [
+          "claude-opus-5-5"
+        ],
+        "private_record_sha256": "a49d5c63391a717b4b18e8b18ca10a26442dc018b213acfec48012b6ea569780"
+      },
+      {
+        "record": "zune-client-import/installer-claude-review.json",
+        "success": true,
+        "model_ids": [
+          "claude-opus-5-5"
+        ],
+        "private_record_sha256": "6bd81dd1ad930c9d22bdc1f5c1bdc832f570ba807d504dd357f011507074ccc6"
+      },
+      {
+        "record": "zune-client-import/installer-claude-review-followup.json",
+        "success": true,
+        "model_ids": [
+          "claude-opus-5-5"
+        ],
+        "private_record_sha256": "5dc774bd31bcfb50e67453b23061c88bba8e2ac18a4bd2400aee177c1a0fb07d"
+      },
+      {
+        "record": "zune-client-import/locale-compat-claude-review.json",
+        "success": true,
+        "model_ids": [
+          "claude-opus-5-5"
+        ],
+        "private_record_sha256": "e5e038119aac62b60f80d3345dbf82320d001741d5635430e021a4a142165f37"
+      },
+      {
+        "record": "zune-client-import/duplicate-init-claude-review.json",
+        "success": true,
+        "model_ids": [
+          "claude-opus-5-5"
+        ],
+        "private_record_sha256": "800ef014d6c7d9968c6ec254d95bed407b5e73eb2f0e19e8aec56edac311cfc6"
+      },
+      {
+        "record": "zune-client-import/full-candidate-claude-review.json",
+        "success": true,
+        "model_ids": [
+          "claude-opus-5-5"
+        ],
+        "private_record_sha256": "23ec758310af697dd6a237440128136160afeecb1b809dd105316259f99a964a"
+      },
+      {
+        "record": "zune-client-import/full-installer-code-claude-review-focused.json",
+        "success": true,
+        "model_ids": [
+          "claude-opus-5-5"
+        ],
+        "private_record_sha256": "3166cc623b16f12293e028f79ceac52ebf32619072e743a74f3d69b04d5d9d67"
+      },
+      {
+        "record": "zune-client-import/full-write-limit-claude-review.json",
+        "success": true,
+        "model_ids": [
+          "claude-opus-5-5"
+        ],
+        "private_record_sha256": "27ae54d6d8034af7d12aa927da6a1d26eefc69e008b8e275dfe4fdfa001f0d7a"
+      }
+    ],
+    "role": "Independent design/code review and troubleshooting analysis"
+  },
+  "human": {
+    "role": "Project direction, wording decisions, physical device operation and visual/playback testing",
+    "public_attribution": "ludwig5088-art"
+  },
+  "evidence_limits": [
+    "Only completed saved Claude responses are counted; timed-out attempts are excluded.",
+    "Session model identifiers are recorded metadata, not an independent backend attestation.",
+    "Review comments are not device validation or upstream maintainer acceptance.",
+    "Raw conversations, prompts, credentials and private device logs are not included."
+  ]
+}
